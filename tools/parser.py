@@ -1,5 +1,9 @@
 import json
 import xmltodict
+
+import gc
+gc.collect()
+
 kanji_reading = []
 jlpt_list = []
 jlpt_list.append([])
@@ -11,27 +15,22 @@ with open("JMdict_e.json", encoding="utf8") as f:
     data = json.load(f)
     for entry in data:
         try:
-            kanji = entry["k_ele"][0]["keb"]#["keb"]
+            kanji = entry["k_ele"][0]["keb"]
             readings = []
             reading_list = entry["r_ele"]
             for reading in reading_list:
                 readings.append(reading["reb"])
-            #print((kanji, readings))
-            kanji_reading.append([kanji, readings, -1])
+            kanji_reading.append([kanji, readings, 100])
         except:
             pass
-
 
 with open("kanjidic2.json", encoding="utf8") as f:
     data = json.load(f)
     for entry in data:
-        #print(entry.keys())
         try:
             jlpt_list[entry["jlpt"]].append(entry["literal"])
-            #print(entry["jlpt"])
         except:
             pass
-    #print(jlpt_list)
 
 N5 = []
 n5 = False
@@ -78,17 +77,6 @@ with open("kanji.txt", encoding="utf8") as f:
                 if(i != ""):
                     N1.append(i)
 
-print("N5 " + str(len(N5)))
-print("N5 " + str(len(jlpt_list[4])))
-print("N4 " + str(len(N4)))
-print("N4 " + str(len(jlpt_list[3])))
-print("N3 " + str(len(N3)))
-print("N3 " + str(len(jlpt_list[2])))
-print("N2 " + str(len(N2)))
-print("N2 " + str(len(jlpt_list[1])))
-print("N1 " + str(len(N1)))
-print("N1 " + str(len(jlpt_list[0])))
-
 def Diff(li1, li2):
     return list(set(li1) - set(li2)) + list(set(li2) - set(li1))
 
@@ -103,3 +91,37 @@ with open("Kanji_withJLPT.csv", "w", newline="", encoding="utf8") as csvfile:
     writer.writerow(N3)
     writer.writerow(N2)
     writer.writerow(N1)
+
+# vocab in form [kanji, reading, jlpt]
+def getJLPT(N1, N2, N3, N4, N5, vocab):
+    jlpt = 100
+    word_list = vocab[0]
+    for word in word_list:
+        for kanji in word:
+            #print(word)
+            #print(kanji)
+            if kanji in N1:
+                return 1
+            elif kanji in N2 and jlpt > 2:
+                jlpt = 2
+            elif kanji in N3 and jlpt > 3:
+                jlpt = 3
+            elif kanji in N4 and jlpt > 4:
+                jlpt = 4
+            elif kanji in N5 and jlpt > 5:
+                jlpt = 5
+    return jlpt
+
+vocab_word_list = []
+for vocab in kanji_reading:
+    jlpt = getJLPT(N1, N2, N3, N4, N5, vocab)
+    vocab[2] = jlpt
+
+    if jlpt != 100:
+        vocab_word_list.append(vocab)
+
+
+with open("Wordlist.csv", "w", newline="", encoding="utf8") as csvfile:
+    writer = csv.writer(csvfile, delimiter=",")
+    writer.writerow(["Kanji", "Reading", "JLPT"])
+    writer.writerows(vocab_word_list)
