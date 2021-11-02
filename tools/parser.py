@@ -15,12 +15,14 @@ with open("JMdict_e.json", encoding="utf8") as f:
     data = json.load(f)
     for entry in data:
         try:
+            type = entry["sense"][0]["pos"]
+            meaning = entry["sense"][0]["gloss"]
             kanji = entry["k_ele"][0]["keb"]
             readings = []
             reading_list = entry["r_ele"]
             for reading in reading_list:
                 readings.append(reading["reb"])
-            kanji_reading.append([kanji, readings, 100])
+            kanji_reading.append([kanji, readings, 100, type, meaning])
         except:
             pass
 
@@ -123,5 +125,5 @@ for vocab in kanji_reading:
 
 with open("Wordlist.csv", "w", newline="", encoding="utf8") as csvfile:
     writer = csv.writer(csvfile, delimiter=",")
-    writer.writerow(["Kanji", "Reading", "JLPT"])
+    writer.writerow(["Kanji", "Reading", "JLPT", "Type", "Meaning"])
     writer.writerows(vocab_word_list)
