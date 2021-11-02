@@ -1,6 +1,31 @@
-# app
+# Kanji Elearning App
+Dashboard with correct reading / false reading / dodge percentage
 
-A new Flutter project.
+Game -> Choose difficulty (N5, N4, N3, N2, N1) ...
+Asteroids style game. Control spaceship, shoot at kanjis with correct readings ...
+
+eventually more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Getting Started
 
