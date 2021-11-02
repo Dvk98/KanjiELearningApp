@@ -5,15 +5,23 @@ import 'package:flame/palette.dart';
 import 'dart:math';
 import 'package:flutter/rendering.dart' show EdgeInsets;
 import 'package:flame/geometry.dart';
+import 'dart:developer' as dev;
 
 import 'package:flame/src/gestures/events.dart';
 import 'package:flame/src/components/input/hud_margin_component.dart';
 
 enum FlickDirection { up, right, down, left, push, idle }
 
+final _regularTextConfig = TextPaintConfig(
+    color: BasicPalette.white.color, fontFamily: "Togalite", fontSize: 30);
+final _regular =
+    TextPaint(config: _regularTextConfig.withFontFamily("Togalite"));
+
 class FlickComponent extends HudMarginComponent with Draggable {
-  late final PositionComponent background;
+  late final PositionComponent
+      background; //TODO might change this to SpriteComponent
   late final TextComponent textComponent;
+  late final List<String> trblc;
 
   final threshold = 0.05;
   final Vector2 delta = Vector2.zero();
@@ -26,13 +34,21 @@ class FlickComponent extends HudMarginComponent with Draggable {
     Vector2? position,
     Vector2? size,
     required String text,
+    required this.trblc,
     Anchor anchor = Anchor.center,
   })  : assert(
           margin != null || position != null,
           'Either margin or position must be defined',
         ),
         super(margin: margin, position: position, size: size, anchor: anchor) {
-    textComponent = TextComponent(text, position: position, size: size);
+    Vector2 offset = size! / 2;
+
+    textComponent = TextComponent(
+      text,
+      textRenderer: _regular,
+      position: background.position + offset,
+      size: size,
+    )..anchor = Anchor.center;
   }
 
   @override
@@ -96,6 +112,9 @@ class FlickComponent extends HudMarginComponent with Draggable {
 }
 
 class FlickUI extends FlickComponent {
+  late final List<FlickComponent> flickComponents;
+  String reading = "";
+
   FlickUI(
       {required PositionComponent background,
       EdgeInsets? margin,
@@ -108,6 +127,7 @@ class FlickUI extends FlickComponent {
         ),
         super(
             text: "",
+            trblc: [],
             background: background,
             margin: margin,
             position: position,
@@ -120,20 +140,148 @@ class FlickUI extends FlickComponent {
     createUI();
   }
 
+  @override
+  void update(double dt) {
+    for (final elem in flickComponents) {
+      if (elem.lastDir != FlickDirection.idle) {
+        String char = elem.trblc[elem.lastDir.index];
+        if (char == "shoot") {
+          dev.log('data: $reading');
+          //TODO: Shooting Logic
+          reading = "";
+        } else if (char == "‘") {
+          //TODO: Rendaku Logic
+        } else {
+          reading += elem.trblc[elem.lastDir.index];
+        }
+        elem.lastDir = FlickDirection.idle;
+      }
+    }
+    super.update(dt);
+  }
+
   void createUI() {
     final Vector2 position = Vector2(0, 0);
-    final Vector2 size = Vector2(100, 100);
+    const double margin = 0.2;
+    const double offset = margin / 2;
+    final Vector2 elementSize = Vector2(
+        background.size.x / (3 + margin), background.size.y / (4 + margin));
     final backgroundPaint = BasicPalette.blue.withAlpha(100).paint();
-    final children = [
+    flickComponents = [
       FlickComponent(
-        background: Rectangle(position: position, size: size, angle: 0)
-            .toComponent(paint: backgroundPaint),
-        text: "a",
-        position: position,
-        size: size,
-      ),
+          trblc: ["う", "え", "お", "い", "あ"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "あ",
+          position: position,
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["く", "け", "こ", "き", "か"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "か",
+          position: position + Vector2(elementSize.x * (1 + (1 * offset)), 0),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["す", "せ", "そ", "し", "さ"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "さ",
+          position: position + Vector2(elementSize.x * (2 + (2 * offset)), 0),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["つ", "て", "と", "ち", "た"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "た",
+          position: position + Vector2(0, elementSize.y * (1 + (1 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["ぬ", "ね", "の", "に", "な"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "な",
+          position: position +
+              Vector2(elementSize.x * (1 + (1 * offset)),
+                  elementSize.y * (1 + (1 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["ふ", "へ", "ほ", "ひ", "は"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "は",
+          position: position +
+              Vector2(elementSize.x * (2 + (2 * offset)),
+                  elementSize.y * (1 + (1 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["む", "め", "も", "み", "ま"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "ま",
+          position: position +
+              Vector2(elementSize.x * (0 + (0 * offset)),
+                  elementSize.y * (2 + (2 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["ゆ", "", "よ", "", "や"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "や",
+          position: position +
+              Vector2(elementSize.x * (1 + (1 * offset)),
+                  elementSize.y * (2 + (2 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["る", "れ", "ろ", "り", "ら"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "ら",
+          position: position +
+              Vector2(elementSize.x * (2 + (2 * offset)),
+                  elementSize.y * (2 + (2 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["", "", "", "", "‘"], //TODO: Rendaku?
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "‘",
+          position: position +
+              Vector2(elementSize.x * (0 + (0 * offset)),
+                  elementSize.y * (3 + (3 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["ん", "", "", "を", "わ"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "わ",
+          position: position +
+              Vector2(elementSize.x * (1 + (1 * offset)),
+                  elementSize.y * (3 + (3 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
+      FlickComponent(
+          trblc: ["", "", "", "", "shoot"],
+          background: Rectangle(position: position, size: elementSize, angle: 0)
+              .toComponent(paint: backgroundPaint),
+          text: "Fire",
+          position: position +
+              Vector2(elementSize.x * (2 + (2 * offset)),
+                  elementSize.y * (3 + (3 * offset))),
+          size: elementSize,
+          anchor: Anchor.topLeft),
     ];
 
-    addAll(children);
+    addAll(flickComponents);
   }
 }
