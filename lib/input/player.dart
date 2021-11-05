@@ -21,7 +21,7 @@ class Player extends SpriteComponent with HasGameRef {
   Future<void> onLoad() async {
     super.onLoad();
     sprite = await gameRef.loadSprite('TODO');
-    position = gameRef.size / 2; //TODO
+    position = gameRef.size / 2; //TODO: Actually implement stuff
   }
 
   @override
