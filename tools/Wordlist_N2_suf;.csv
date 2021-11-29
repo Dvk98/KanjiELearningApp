@@ -1,0 +1,37 @@
+Kanji,Reading,JLPT,Type,Meaning
+['詰め'],"[['つめ'], ['づめ']]",2,"['&n;', '&suf;']","['stuffing', 'packing']"
+['歳未満'],[['さいみまん']],2,['&suf;'],"['under ... years of age', 'less than ... years old']"
+['誌等で'],[['しとうで']],2,['&suf;'],['in magazines like ...']
+['似'],[['に']],2,['&suf;'],"['looking like (someone)', ""taking after (either of one's parents)""]"
+['殿'],[['どの']],2,['&suf;'],"['Mr.', 'Mrs.', 'Miss', 'Ms.']"
+['豊か'],[['ゆたか']],2,"['&adj-na;', '&suf;']","['abundant', 'plentiful', 'rich', 'ample']"
+['容疑者'],[['ようぎしゃ']],2,"['&n;', '&suf;']",['suspect (person)']
+['留め'],[['とめ']],2,"['&n;', '&suf;']","['(a) stop (e.g. in a timber joint, or at the end of a kanji stroke)']"
+['可し'],[['べし']],2,['&suf;'],"['shall', 'should', 'must']"
+['張り'],[['ばり']],2,['&suf;'],"['in the style of (esp. literary, artistic, etc. works)', 'reminiscent of']"
+['歳代'],[['さいだい']],2,['&suf;'],"['decade (of age)', 'the ...ties']"
+['厚'],[['あつ']],2,['&suf;'],['thickness']
+['務長官'],[['むちょうかん']],2,['&suf;'],['secretary (government)']
+['減'],[['げん']],2,"['&n;', '&suf;']","['reduction', 'decrease']"
+['込み'],"[['こみ'], ['コミ']]",2,"['&n;', '&suf;']","['including', 'inclusive of']"
+['犯'],[['はん']],2,['&suf;'],"['perpetrators of (some) crime', '(some type of) crime']"
+['税'],[['ぜい']],2,"['&n;', '&suf;']",['tax']
+['城'],[['じょう']],2,['&suf;'],['castle (in place names)']
+['業務課'],[['ぎょうむか']],2,"['&n;', '&suf;']","['general affairs section (e.g. in a company)', 'operations division']"
+['業務部'],[['ぎょうむぶ']],2,"['&n;', '&suf;']","['general affairs department (e.g. in a company)', 'operations department']"
+['年暮れ'],[['ねんくれ']],2,"['&n;', '&suf;']",['year end']
+['歳の割に'],[['さいのわりに']],2,['&suf;'],"[""considering he (she) is ... year's old""]"
+['値'],[['ち']],2,['&suf;'],"['level', 'value']"
+['段階評価'],[['だんかいひょうか']],2,['&suf;'],"['graded on N steps', 'scored out of N']"
+['展'],[['てん']],2,['&suf;'],"['exhibition', 'exhibit']"
+['御'],[['ぎょ']],2,"['&pref;', '&suf;']",['honorific affix']
+['刊'],[['かん']],2,['&suf;'],"['publication', 'edition (e.g. morning, evening, special)', 'published in (year)', 'publication frequency (e.g. daily, monthly)']"
+['仕舞い'],[['じまい']],2,['&suf;'],"['ending', 'quitting', 'closing']"
+['勢'],[['ぜい']],2,['&suf;'],"['group engaged in some activity (players, companies, forces, etc.)']"
+['補'],[['ほ']],2,['&suf;'],"['assistant ...', 'probationary ...']"
+['応え'],[['ごたえ']],2,['&suf;'],"['response', 'feeling']"
+['塗'],[['みどろ']],2,['&suf;'],"['covered with', 'stained', 'smeared']"
+['罪'],[['ざい']],2,['&suf;'],['crime']
+['裏'],[['り']],2,['&suf;'],"['in (e.g. secret)', 'with (e.g. success)']"
+['倒れ'],[['だおれ']],2,['&suf;'],"['doing ... until one goes bankrupt', 'doing ... until one goes broke']"
+['婚'],[['こん']],2,['&suf;'],['marriage']

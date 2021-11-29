@@ -1,16 +1,20 @@
+import 'package:app/game/kanji_learning_game.dart';
 import 'package:flutter/material.dart';
-import 'package:dashbook/dashbook.dart';
-import 'test.dart';
+import 'game/kanji_learning_game.dart';
+import 'screens/dashboard.dart';
+import 'screens/navbar.dart';
 
 void main() {
-  //TODO: Proper Menu, throw out Dashbook, enforce Portrait Mode
-  final dashbook = Dashbook.dualTheme(
-    light: ThemeData.light(),
-    dark: ThemeData.dark(),
-    initWithLight: false,
-    title: "Menu",
-  );
+  runApp(MyApp());
+}
 
-  addGame(dashbook);
-  runApp(dashbook);
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData.dark(),
+      home: NavBar(),
+    );
+  }
 }

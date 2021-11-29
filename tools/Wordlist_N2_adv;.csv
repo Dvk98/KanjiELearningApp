@@ -1,0 +1,353 @@
+Kanji,Reading,JLPT,Type,Meaning
+['いとも簡単に'],[['いともかんたんに']],2,['&adv;'],['very easily']
+['それ程'],[['それほど']],2,['&adv;'],"['to that degree', 'to that extent', 'that much']"
+['それ故に'],[['それゆえに']],2,['&adv;'],"['and so', 'therefore', 'for that reason']"
+['何処でも'],[['どこでも']],2,['&adv;'],['anywhere']
+['許りに'],[['ばかりに']],2,['&adv;'],"['(simply) because', 'on account of']"
+['延いては'],[['ひいては']],2,['&adv;'],"['not only ... but also', 'in addition to', 'consequently']"
+['若し'],[['もし']],2,['&adv;'],"['if', 'in case', 'supposing']"
+['若しかしたら'],[['もしかしたら']],2,"['&exp;', '&adv;']","['perhaps', 'maybe', 'perchance', 'by some chance', 'by any chance']"
+['若しかして'],[['もしかして']],2,['&adv;'],"['perhaps', 'possibly', 'maybe', 'by any chance', ""if I'm not mistaken""]"
+['若しかすると'],[['もしかすると']],2,['&adv;'],"['perhaps', 'possibly', 'maybe', 'by some chance']"
+['諸に'],[['もろに']],2,['&adv;'],"['completely', 'all the way', 'altogether', 'bodily']"
+['以降'],[['いこう']],2,"['&n;', '&adv;']","['on and after', 'from ... onward', 'since']"
+['依然として'],[['いぜんとして']],2,"['&exp;', '&adv;']","['still', 'as yet', 'as of old']"
+['異議なく'],[['いぎなく']],2,['&adv;'],['without demur']
+['一刻'],[['いっこく']],2,"['&n;', '&adv;']","['a minute', 'moment', 'an instant']"
+['一刻も早く'],[['いっこくもはやく']],2,"['&exp;', '&adv;']","['immediately', 'as soon as possible', 'as quickly as possible']"
+['一再'],[['いっさい']],2,"['&n;', '&adv;']","['once or twice', 'repeatedly']"
+['一際'],[['ひときわ']],2,['&adv;'],"['conspicuously', 'noticeably', 'remarkably', 'especially', 'particularly']"
+['一昨晩'],[['いっさくばん']],2,"['&n;', '&adv;']",['night before last']
+['一緒に'],[['いっしょに']],2,['&adv;'],"['together (with)', 'at the same time', 'in a lump']"
+['一段'],[['いちだん']],2,"['&adv-to;', '&adv;']","['more', 'much more', 'still more', 'all the more']"
+['一途に'],[['いちずに']],2,['&adv;'],"['wholeheartedly', 'single-mindedly', 'earnestly', 'intently', 'determinedly']"
+['一日増しに'],[['いちにちましに']],2,['&adv;'],['day by day']
+['一般に'],[['いっぱんに']],2,['&adv;'],"['generally', 'in general', 'widely', 'commonly', 'universally']"
+['一晩'],[['ひとばん']],2,"['&n;', '&adv;']","['one night', 'one evening']"
+['押しなべて'],[['おしなべて']],2,['&adv;'],"['in general', 'on the whole', 'for the most part', 'by and large', 'almost all']"
+['仮に'],[['かりに']],2,['&adv;'],"['supposing', 'even if', 'granting that', ""for argument's sake""]"
+['仮にも'],[['かりにも']],2,['&adv;'],"['even for an instant', 'even as a joke']"
+['何やら彼にやら'],[['なにやらかにやら']],2,['&adv;'],"['this and that', 'one thing or another']"
+['何処ともなく'],"[['どこともなく'], ['いずこともなく']]",2,['&adv;'],['aimlessly']
+['何処となく'],[['どことなく']],2,['&adv;'],"['somehow', 'for some reason', 'in some way', 'vaguely']"
+['何処まで'],[['どこまで']],2,['&adv;'],"['how far', 'to what extent']"
+['何処までも'],[['どこまでも']],2,['&adv;'],"['anywhere', 'for all time', 'to the ends of the earth']"
+['何条'],[['なんじょう']],2,['&adv;'],['what street? (esp. in Kyoto and Sapporo)']
+['過去'],[['かこ']],2,"['&n;', '&adv;', '&adj-no;']","['the past', 'bygone days']"
+['過日'],[['かじつ']],2,"['&n;', '&adv;']","['the other day', 'some days ago', 'recently']"
+['過般'],[['かはん']],2,"['&n;', '&adv;']","['some time ago', 'recently']"
+['皆目'],[['かいもく']],2,['&adv;'],"['entirely', '(not) at all']"
+['確かに'],[['たしかに']],2,['&adv;'],"['surely', 'certainly']"
+['割り方'],[['わりかた']],2,['&adv;'],"['comparatively', 'quite', 'rather']"
+['危うく'],[['あやうく']],2,['&adv;'],"['barely', 'narrowly']"
+['基本的に'],[['きほんてきに']],2,['&adv;'],"['basically', 'fundamentally']"
+['逆に'],[['ぎゃくに']],2,['&adv;'],"['conversely', 'on the contrary']"
+['久しく'],[['ひさしく']],2,['&adv;'],"['for a long time', 'for ages', 'for a good while']"
+['久しぶりに'],[['ひさしぶりに']],2,['&adv;'],"['after a long time', 'for the first time in a while']"
+['旧時'],[['きゅうじ']],2,"['&n;', '&adv;']",['ancient times']
+['旧冬'],[['きゅうとう']],2,"['&n;', '&adv;']","['former winters', 'the last winter']"
+['旧臘'],[['きゅうろう']],2,"['&n;', '&adv;']","['last December', 'end of last year']"
+['恐らく'],[['おそらく']],2,['&adv;'],"['perhaps', 'likely', 'probably', 'I dare say']"
+['況して'],[['まして']],2,"['&exp;', '&adv;']","['still more', 'to say nothing of', 'not to mention']"
+['金輪際'],[['こんりんざい']],2,['&adv;'],"['(not) ever', '(not) at all', '(not) on any account', '(not) by any means']"
+['偶さか'],[['たまさか']],2,['&adv;'],"['coincidentally', 'by chance', 'unexpectedly', 'accidentally', 'randomly']"
+['結構'],[['けっこう']],2,"['&adj-na;', '&adv;', '&n;']","['splendid', 'nice', 'wonderful', 'delicious', 'sweet']"
+['現に'],[['げんに']],2,['&adv;'],"['actually', 'really']"
+['現在'],[['げんざい']],2,"['&n;', '&adv;', '&adj-no;']","['the present', 'present time', 'now']"
+['現在のところ'],[['げんざいのところ']],2,"['&exp;', '&adv;']","['at the present time', 'as of now', 'at this time']"
+['限り無く'],[['かぎりなく']],2,['&adv;'],"['without end', 'exceedingly']"
+['互いに'],[['たがいに']],2,['&adv;'],"['mutually', 'with each other', 'reciprocally', 'together']"
+['互い違いに'],[['たがいちがいに']],2,['&adv;'],['alternate']
+['互に'],[['かたみに']],2,['&adv;'],"['mutually', 'reciprocally', 'together']"
+['刻下'],[['こっか']],2,"['&n;', '&adv;']",['the present']
+['今や遅しと'],[['いまやおそしと']],2,['&adv;'],"['impatiently', 'eagerly']"
+['今更'],[['いまさら']],2,['&adv;'],"['now (when it is already much too late)', 'at this stage']"
+['今晩'],[['こんばん']],2,"['&n;', '&adv;']","['tonight', 'this evening']"
+['根掘り葉掘り'],[['ねほりはほり']],2,"['&exp;', '&adv;']","['inquisitively', 'pryingly', 'nosily', 'thoroughly', 'persistently', 'through-and-through']"
+['再び'],[['ふたたび']],2,['&adv;'],"['again', 'once more', 'a second time']"
+['再度'],[['さいど']],2,"['&n;', '&adv;']","['twice', 'again', 'second time']"
+['再来月'],[['さらいげつ']],2,"['&n;', '&adv;']",['month after next']
+['再来週'],[['さらいしゅう']],2,"['&n;', '&adv;']",['week after next']
+['再来年'],[['さらいねん']],2,"['&n;', '&adv;']",['year after next']
+['歳月'],[['さいげつ']],2,"['&n;', '&adv;']","['time', 'years']"
+['際に'],[['さいに']],2,['&adv;'],"['in case of', 'at that time', 'at this time']"
+['昨晩'],[['さくばん']],2,"['&n;', '&adv;']",['last night']
+['時々刻々'],"[['じじこっこく'], ['じじこくこく']]",2,['&adv;'],"['hourly', 'from one minute to the next', 'from hour to hour', 'moment by moment', 'with each passing moment']"
+['実際に'],[['じっさいに']],2,['&adv;'],"['actually', 'really', 'truly', 'indeed']"
+['取っ替え引っ替え'],[['とっかえひっかえ']],2,['&adv;'],"['one after another', 'one after the other', 'in rotation']"
+['できる限り'],[['できるかぎり']],2,"['&exp;', '&adv;']","['as ... as one can', 'as ... as possible', 'as much as possible']"
+['将来'],[['しょうらい']],2,"['&n;', '&adv;']","['future (usually near)', 'prospects']"
+['常に'],[['つねに']],2,['&adv;'],"['always', 'constantly']"
+['常時'],[['じょうじ']],2,"['&n;', '&adv;']","['usually', 'ordinarily', 'always']"
+['常日頃'],[['つねひごろ']],2,"['&n;', '&adv;']","['everyday', 'always', 'at all times', 'frequently']"
+['辛うじて'],[['かろうじて']],2,['&adv;'],"['barely', 'narrowly', 'only just', 'with difficulty']"
+['人並みに'],[['ひとなみに']],2,['&adv;'],"['like everyone else', 'like most people', 'like an ordinary person', 'as much as anyone else']"
+['勢いよく'],"[['いきおいよく'], ['いきよいよく']]",2,['&adv;'],"['vigorously', 'with great force', 'energetically', 'enthusiastically', 'with spirit']"
+['勢力下に'],[['せいりょくかに']],2,['&adv;'],['under the influence of']
+['生憎'],[['あいにく']],2,"['&adj-na;', '&adv;', '&n;', '&adj-no;']","['unfortunately', 'sorry, but ...']"
+['絶えず'],[['たえず']],2,['&adv;'],"['constantly', 'always', 'continually', 'steadily']"
+['絶え間なく'],[['たえまなく']],2,['&adv;'],"['incessantly', 'without a pause']"
+['絶対'],[['ぜったい']],2,['&adv;'],"['absolutely', 'definitely', 'unconditionally']"
+['先刻'],[['せんこく']],2,"['&n;', '&adv;']",['a short while ago']
+['先般'],[['せんぱん']],2,"['&n;', '&adv;']","['some time ago', 'the other day']"
+['先般来'],[['せんぱんらい']],2,"['&n;', '&adv;']",['for some time']
+['善い悪い'],[['よいわるい']],2,"['&exp;', '&adv;']","['good or bad', 'merits or demerits', 'quality', 'suitability']"
+['善かれ悪しかれ'],[['よかれあしかれ']],2,"['&exp;', '&adv;']","['good or bad', 'right or wrong', 'for better or for worse', 'rightly or wrongly']"
+['善後'],[['ぜんご']],2,"['&n;', '&adv;']","['giving careful thought to the future', 'finishing up carefully']"
+['然程'],[['さほど']],2,['&adv;'],"['(not) so', '(not) particularly', '(not) very', '(not) that much']"
+['全般に'],[['ぜんぱんに']],2,['&adv;'],"['in general', 'overall', 'generally']"
+['全般的に'],[['ぜんぱんてきに']],2,['&adv;'],"['generally', 'overall', 'across the board', 'as a whole']"
+['早晩'],[['そうばん']],2,"['&n;', '&adv;']","['sooner or later', 'in time', 'eventually']"
+['存分'],[['ぞんぶん']],2,"['&adj-na;', '&adv;', '&n;']","[""to one's heart's content"", 'as much as one wants']"
+['存分に'],[['ぞんぶんに']],2,['&adv;'],"[""to one's heart's content"", 'as much as one likes', 'freely', 'unreservedly', 'fully']"
+['大層'],[['たいそう']],2,['&adv;'],"['very', 'extremely', 'exceedingly', 'greatly', 'terribly']"
+['鱈腹'],[['たらふく']],2,['&adv;'],"[""(eating or drinking) to one's heart's content""]"
+['断じて'],[['だんじて']],2,['&adv;'],"['absolutely', 'positively', 'decidedly']"
+['遅くとも'],[['おそくとも']],2,['&adv;'],['at the latest']
+['昼過ぎ'],[['ひるすぎ']],2,"['&n;', '&adv;']","['just past noon', 'afternoon']"
+['朝晩'],[['あさばん']],2,"['&n;', '&adv;']",['morning and evening']
+['直押しに'],[['ひたおしに']],2,['&adv;'],['steadily']
+['程'],[['ほど']],2,"['&n;', '&adv;']","['extent', 'degree', 'measure']"
+['程なく'],[['ほどなく']],2,['&adv;'],"['soon', 'before long', 'shortly thereafter']"
+['程度'],[['ていど']],2,"['&n;', '&adv;', '&n-suf;']","['degree', 'amount', 'grade', 'standard', 'of the order of (following a number)', 'about', 'approximately']"
+['天性'],[['てんせい']],2,"['&n;', '&adv;']","['nature', 'natural constitution', 'innate disposition']"
+['途上'],[['とじょう']],2,"['&n;', '&adv;']","['on the way', 'en route']"
+['到底'],[['とうてい']],2,['&adv;'],"['(cannot) possibly', '(not) by any means', '(not) at all', 'utterly', 'absolutely']"
+['到頭'],[['とうとう']],2,['&adv;'],"['finally', 'at last', 'ultimately', 'in the end']"
+['独りでに'],[['ひとりでに']],2,['&adv;'],"['by itself', 'automatically', 'naturally']"
+['年久しく'],[['としひさしく']],2,['&adv;'],"['for many years', 'anciently']"
+['晩'],[['ばん']],2,"['&n;', '&adv;']","['evening', 'night']"
+['晩方'],[['ばんがた']],2,"['&n;', '&adv;']",['toward evening']
+['否応なしに'],[['いやおうなしに']],2,"['&exp;', '&adv;']","['whether one likes it or not', 'inevitably', 'unavoidably', 'compulsorily', 'by force']"
+['比較的'],[['ひかくてき']],2,['&adv;'],"['comparatively', 'relatively']"
+['非常に'],[['ひじょうに']],2,['&adv;'],"['very', 'extremely', 'exceedingly']"
+['必要に応じて'],[['ひつようにおうじて']],2,['&adv;'],['as necessary']
+['普く'],[['あまねく']],2,['&adv;'],"['widely', 'extensively', 'far and wide', 'everywhere', 'all around', 'generally', 'universally']"
+['復路'],[['ふくろ']],2,"['&n;', '&adv;']","['return path (of a signal, communication)', 'return trip']"
+['複数回'],[['ふくすうかい']],2,"['&n;', '&adv;']",['several times']
+['平常通り'],[['へいじょうどおり']],2,['&adv;'],"['as usual', 'as normal']"
+['並めて'],[['なめて']],2,['&adv;'],['all']
+['暮れ'],[['くれ']],2,"['&n;', '&adv;', '&adj-no;', '&n-suf;']","['sunset', 'sundown', 'nightfall', 'dusk']"
+['報じたように'],[['ほうじたように']],2,['&adv;'],['as reported']
+['亡き後'],[['なきあと']],2,"['&n;', '&adv;']","[""after one's death""]"
+['毎晩'],[['まいばん']],2,"['&n;', '&adv;']",['every night']
+['夢にも'],[['ゆめにも']],2,['&adv;'],"['(not) in the slightest', '(not) at all']"
+['無論'],[['むろん']],2,['&adv;'],"['of course', 'certainly', 'naturally']"
+['明晩'],[['みょうばん']],2,"['&n;', '&adv;']",['tomorrow evening']
+['勿論'],[['もちろん']],2,['&adv;'],"['of course', 'certainly', 'naturally']"
+['優に'],[['ゆうに']],2,['&adv;'],"['easily (reach, exceed, etc.)', 'comfortably', 'amply', 'fully', 'well over']"
+['あらん限り'],[['あらんかぎり']],2,"['&exp;', '&adv;', '&adj-no;']","['all', 'as much as possible']"
+['夕刻'],[['ゆうこく']],2,"['&n;', '&adv;']","['evening', 'evening hour']"
+['余すところなく'],[['あますところなく']],2,"['&exp;', '&adv;']","['fully', 'thoroughly']"
+['余りに'],[['あまりに']],2,['&adv;'],"['too much', 'excessively', 'too']"
+['余りにも'],[['あまりにも']],2,['&adv;'],"['too much', 'excessive', 'too']"
+['余業無く'],[['よぎょうなく']],2,['&adv;'],"['unavoidably', 'necessarily', 'inevitably']"
+['余所ながら'],[['よそながら']],2,['&adv;'],"['while at a distance', 'indirectly', 'casually']"
+['余日'],[['よじつ']],2,"['&n;', '&adv;']","['remaining time', 'days left']"
+['余念無く'],[['よねんなく']],2,['&adv;'],"['earnestly', 'intently', 'attentively', 'wholeheartedly']"
+['翌月'],[['よくげつ']],2,"['&n;', '&adv;']",['following month']
+['翌週'],[['よくしゅう']],2,"['&n;', '&adv;']","['the following week', 'the next week']"
+['翌日'],[['よくじつ']],2,"['&n;', '&adv;']",['next day']
+['翌年'],"[['よくねん'], ['よくとし']]",2,"['&n;', '&adv;']",['following year']
+['略'],[['ほぼ']],2,['&adv;'],"['almost', 'roughly', 'approximately']"
+['例刻'],[['れいこく']],2,"['&n;', '&adv;']",['the regular time']
+['とどの詰まり'],[['とどのつまり']],2,"['&exp;', '&adv;']","['in the end', 'after all is said and done', {'_': 'when the striped mullet is fully grown', '$': {'g_type': 'lit'}}]"
+['何故'],"[['なぜ'], ['なにゆえ']]",2,['&adv;'],"['why', 'how']"
+['旧年'],"[['きゅうねん'], ['ふるとし']]",2,"['&n;', '&adv;']","['the old year', 'last year']"
+['途中'],[['とちゅう']],2,"['&n;', '&adv;']","['on the way', 'en route']"
+['翌朝'],"[['よくあさ'], ['よくちょう']]",2,"['&n;', '&adv;']",['next morning']
+['一律に'],[['いちりつに']],2,['&adv;'],['in the same way']
+['否々乍ら'],[['いやいやながら']],2,['&adv;'],['reluctantly']
+['薄々'],[['うすうす']],2,['&adv;'],"['thinly', 'slightly', 'vaguely', 'a little']"
+['永々'],[['えいえい']],2,['&adv;'],['forever']
+['仮初にも'],[['かりそめにも']],2,['&adv;'],"['for a moment', 'even as a joke', 'even in the slightest degree']"
+['個々に'],[['ここに']],2,['&adv;'],"['individually', 'separately']"
+['刻々に'],[['こっこくに']],2,['&adv;'],"['moment by moment', 'hour by hour']"
+['更々'],[['さらさら']],2,['&adv;'],"['(not) at all', '(not) in the least', '(none) whatsoever']"
+['精々'],[['せいぜい']],2,['&adv;'],"['at the most', 'at best']"
+['仮令'],"[['たとえ'], ['たとい']]",2,['&adv;'],"['even if', 'no matter (what)', 'if', 'though', 'although', 'supposing', 'supposing that', '-ever']"
+['偶々'],[['たまたま']],2,['&adv;'],"['occasionally', 'once in a while', 'seldom']"
+['伸るか反るか'],[['のるかそるか']],2,"['&exp;', '&adv;', '&adj-no;']","['win or lose', 'sink or swim', 'make or break', 'all or nothing']"
+['一渡り'],[['ひとわたり']],2,"['&n;', '&adv;']","['generally', 'in the main', 'briefly (look over, explain, etc.)', 'roughly', 'more or less']"
+['翌々日'],[['よくよくじつ']],2,"['&n;', '&adv;']","['two days later', 'day after next', 'next day but one']"
+['割に'],[['わりに']],2,['&adv;'],"['comparatively', 'relatively', 'pretty', 'rather']"
+['恐る恐る'],[['おそるおそる']],2,['&adv;'],"['fearfully', 'timidly', 'nervously', 'cautiously', 'gingerly']"
+['思う存分'],[['おもうぞんぶん']],2,"['&exp;', '&adv;']","[""to one's heart's content"", ""to one's complete satisfaction"", 'as much as one likes', 'heartily', 'thoroughly', 'without restraint']"
+['絶対に'],[['ぜったいに']],2,['&adv;'],"['absolutely', 'definitely', 'unconditionally']"
+['詰まり'],[['つまり']],2,['&adv;'],"['that is to say', 'that is', 'in other words', 'I mean', 'that (this, it) means']"
+['手際よく'],[['てぎわよく']],2,['&adv;'],"['efficiently', 'skillfully', 'adeptly', 'adroitly', 'deftly']"
+['何故か'],[['なぜか']],2,['&adv;'],"['somehow', 'for some reason', 'without knowing why']"
+['一晩中'],[['ひとばんじゅう']],2,"['&n;', '&adv;']","['all night long', 'all through the night']"
+['日増しに'],[['ひましに']],2,['&adv;'],['day by day']
+['満更'],[['まんざら']],2,['&adv;'],"['(not) altogether', '(not) wholly']"
+['無性に'],[['むしょうに']],2,['&adv;'],"['very much', 'intensely', 'overwhelmingly', 'excessively', 'irresistibly', 'without any obvious reason']"
+['若しも'],[['もしも']],2,['&adv;'],"['if', 'in case', 'supposing']"
+['善くも'],[['よくも']],2,['&adv;'],"['how dare ...', 'how could ...']"
+['割合に'],[['わりあいに']],2,['&adv;'],['comparatively']
+['難なく'],[['なんなく']],2,['&adv;'],['easily']
+['偶に'],[['たまに']],2,['&adv;'],"['occasionally', 'once in a while', 'now and then', 'rarely', 'seldom']"
+['辛くも'],[['からくも']],2,['&adv;'],"['barely', 'narrowly', 'with difficulty']"
+['終了後'],[['しゅうりょうご']],2,"['&n;', '&adv;']","['after the end (of something)', 'post-']"
+['座臥'],[['ざが']],2,"['&n;', '&adv;']","['daily life', 'sitting and lying down']"
+['暮れ方'],[['くれがた']],2,"['&n;', '&adv;']","['evening', 'sunset', 'nightfall']"
+['明け暮れ'],[['あけくれ']],2,"['&n;', '&adv;']","['morning and evening', 'all the time']"
+['口荒く'],[['くちあらく']],2,['&adv;'],['violently']
+['後刻'],[['ごこく']],2,"['&n;', '&adv;']","['later on', 'afterwards']"
+['怖めず臆せず'],[['おめずおくせず']],2,"['&exp;', '&adv;']",['fearlessly']
+['諸共'],[['もろとも']],2,"['&n;', '&adv;']",['(all) together']
+['遅かれ早かれ'],[['おそかれはやかれ']],2,"['&exp;', '&adv;']",['sooner or later']
+['総別'],[['そうべつ']],2,['&adv;'],['generally']
+['途次'],[['とじ']],2,"['&n;', '&adv;']","[""on one's way""]"
+['居ながら'],[['いながら']],2,['&adv;'],"['from where one sits', 'while sitting by']"
+['辛辛'],[['からがら']],2,['&adv;'],['barely']
+['絶後'],[['ぜつご']],2,"['&n;', '&adv;']",['(of a kind) never to be seen again']
+['悉皆'],[['しっかい']],2,['&adv;'],['all']
+['未来永劫'],"[['みらいえいごう'], ['みらいようごう']]",2,"['&n;', '&adv;']","['forevermore', 'for eternity']"
+['晩節'],[['ばんせつ']],2,"['&n;', '&adv;']","['late in life', ""one's later years""]"
+['この際'],[['このさい']],2,"['&n;', '&adv;']","['on this occasion', 'now', 'in these circumstances', 'with this opportunity']"
+['詰まるところ'],[['つまるところ']],2,['&adv;'],"['in short', 'in brief', 'to sum up', 'ultimately', 'in the end', 'in the long run', 'when all is said and done', 'what it all comes down to', 'when you get right down to it']"
+['程経て'],[['ほどへて']],2,['&adv;'],['a while later']
+['過般来'],[['かはんらい']],2,['&adv;'],['for some time']
+['寄り寄り'],[['よりより']],2,['&adv;'],['sometimes']
+['いく程'],[['いくほど']],2,['&adv;'],"['how many', 'how much']"
+['当歳'],[['とうさい']],2,"['&n;', '&adv;']","['year of birth', 'this year']"
+['差し詰め'],"[['さしずめ'], ['さしづめ']]",2,['&adv;'],"['after all', 'in the end', ""when all's said and done""]"
+['常住'],[['じょうじゅう']],2,['&adv;'],"['always', 'constantly', 'eternally']"
+['翌々年'],[['よくよくねん']],2,"['&n;', '&adv;']","['two years later', 'year after next']"
+['翌晩'],[['よくばん']],2,"['&n;', '&adv;']",['the following evening']
+['薬石効無く'],[['やくせきこうなく']],2,['&adv;'],['no medical treatment having proved effective']
+['押して'],[['おして']],2,['&adv;'],"['forcibly', 'by compulsion', 'importunately']"
+['優れて'],[['すぐれて']],2,['&adv;'],"['exceedingly', 'conspicuously', 'by far']"
+['所構わず'],[['ところかまわず']],2,"['&exp;', '&adv;']","['irrespective of the occasion', 'indiscriminately']"
+['翌春'],[['よくしゅん']],2,"['&n;', '&adv;']",['next spring']
+['案に相違して'],[['あんにそういして']],2,['&adv;'],"[""contrary to one's expectations""]"
+['著しく'],[['いちじるしく']],2,['&adv;'],"['considerably', 'remarkably', 'strikingly']"
+['居常'],[['きょじょう']],2,"['&n;', '&adv;']",['daily life']
+['議論の末に'],[['ぎろんのすえに']],2,['&adv;'],['after a heated discussion']
+['権限内に'],[['けんげんないに']],2,['&adv;'],['within the scope of authority']
+['快く'],[['こころよく']],2,['&adv;'],"['comfortably', 'pleasantly', 'cheerfully']"
+['食事の際に'],[['しょくじのさいに']],2,['&adv;'],['when eating']
+['末永く'],[['すえながく']],2,['&adv;'],"['forever', 'everlastingly', 'for many years to come', 'ever']"
+['隅から隅まで'],[['すみからすみまで']],2,"['&exp;', '&adv;']","['in every nook and corner', 'from A to Z', 'from head to toe', 'from cover to cover']"
+['造作なく'],[['ぞうさなく']],2,"['&exp;', '&adv;']","['without any difficulty', 'with ease', 'easily']"
+['程よく'],[['ほどよく']],2,['&adv;'],"['rightly', 'properly', 'moderately']"
+['物珍しげに'],[['ものめずらしげに']],2,['&adv;'],"['with curious eyes', 'curiously']"
+['理が非でも'],[['りがひでも']],2,['&adv;'],"['by fair means or foul', 'right or wrong']"
+['完了後'],[['かんりょうご']],2,"['&n;', '&adv;']",['after completion']
+['何処からともなく'],[['どこからともなく']],2,"['&exp;', '&adv;']","['from out of nowhere', 'from who knows where']"
+['割と'],[['わりと']],2,['&adv;'],"['relatively', 'comparatively']"
+['指導の下に'],[['しどうのもとに']],2,['&adv;'],"['under the guidance of', 'under the leadership of']"
+['薄ら'],"[['うっすら'], ['ウッスラ']]",2,"['&adv-to;', '&adv;']","['slightly', 'lightly', 'thinly', 'faintly', 'dimly']"
+['況してや'],[['ましてや']],2,"['&exp;', '&adv;']","['much less', 'to say nothing of']"
+['肩越し'],[['かたごし']],2,['&adv;'],"[""over one's shoulder""]"
+['総じて'],[['そうじて']],2,['&adv;'],"['in general', 'generally']"
+['際限なく'],[['さいげんなく']],2,['&adv;'],"['ad infinitum', 'endlessly']"
+['割かし'],[['わりかし']],2,['&adv;'],"['comparatively', 'quite', 'rather']"
+['相違なく'],[['そういなく']],2,['&adv;'],"['certainly', 'surely']"
+['常住坐臥'],[['じょうじゅうざが']],2,"['&n;', '&adv;']","['at all times', 'day in, day out', 'constantly', 'always']"
+['危なく'],[['あぶなく']],2,['&adv;'],"['nearly', 'almost', 'on the point of (doing)']"
+['況んや'],[['いわんや']],2,['&adv;'],"['much more', 'not to mention', 'not to speak of', 'to say nothing of', 'let alone']"
+['公務中'],[['こうむちゅう']],2,"['&n;', '&adv;']",['on duty']
+['神武以来'],[['じんむいらい']],2,"['&adj-no;', '&adv;']","['since the era of the Emperor Jimmu', ""(first ever) since the dawn of Japan's history"", 'unprecedented']"
+['朝々暮々'],[['ちょうちょうぼぼ']],2,['&adv;'],['every morning and evening']
+['一刻一刻'],[['いっこくいっこく']],2,"['&n;', '&adv;']","['hourly', 'from hour to hour', 'moment by moment', 'momently', 'from one minute to the next', 'with each passing moment']"
+['一杯一杯'],[['いっぱいいっぱい']],2,"['&adj-na;', '&adv;', '&n;']","['to the limit', 'to the fullest extent', 'absolutely the limit', 'the best one can do', 'breaking even']"
+['専心一意'],[['せんしんいちい']],2,"['&n;', '&adv;']","['single-mindedly', 'wholeheartedly', ""with one's heart and soul""]"
+['到着次第'],[['とうちゃくしだい']],2,"['&n;', '&adv;']","['upon arrival of an item (items)', 'as soon as one arrives']"
+['間断なく'],[['かんだんなく']],2,['&adv;'],"['continuously', 'constantly', 'incessantly']"
+['藪から棒に'],[['やぶからぼうに']],2,"['&exp;', '&adv;']","['out of the blue', 'all of a sudden', 'without warning', 'unexpectedly']"
+['恐れ気もなく'],[['おそれげもなく']],2,['&adv;'],"['courageously', 'fearlessly', 'defiantly', 'boldly']"
+['確と'],"[['しかと'], ['しっかと']]",2,['&adv;'],"['certainly', 'for sure']"
+['何処にでも'],[['どこにでも']],2,['&adv;'],['anywhere']
+['責任を持って'],[['せきにんをもって']],2,"['&exp;', '&adv;']","['responsibly', 'properly', 'correctly']"
+['退職後'],[['たいしょくご']],2,"['&n;', '&adv;']",['after retirement']
+['間違っても'],[['まちがっても']],2,"['&exp;', '&adv;']","['never (even in error)', 'never, ever', 'never, no matter what happens', 'by no means']"
+['造作もなく'],[['ぞうさもなく']],2,"['&exp;', '&adv;']","['without any difficulty', 'with ease', 'easily']"
+['評判通り'],[['ひょうばんどおり']],2,['&adv;'],['the same as something was reputed to be']
+['勤務中'],[['きんむちゅう']],2,"['&n;', '&adv;']","['on duty', 'at work', 'while working']"
+['若しか'],[['もしか']],2,['&adv;'],"['if', 'in case']"
+['何にも増して'],[['なににもまして']],2,"['&exp;', '&adv;']","['above all else', 'more than anything']"
+['諸所'],[['しょしょ']],2,"['&n;', '&adv;']","['here and there', 'everywhere']"
+['常ならず'],[['つねならず']],2,['&adv;'],"['unusually', 'uncharacteristically']"
+['移動量係数'],[['いどうりょうけいすう']],2,['&adv;'],['distance coefficient']
+['何処にも'],[['どこにも']],2,['&adv;'],"['(not) anywhere', 'nowhere']"
+['何処へも'],[['どこへも']],2,['&adv;'],"['nowhere', 'not anywhere (with neg. verb)']"
+['若しや'],[['もしや']],2,['&adv;'],"['perhaps', 'possibly', 'by some chance', 'by some possibility']"
+['危な危な'],[['あぶなあぶな']],2,['&adv;'],['timidly']
+['恐らくは'],[['おそらくは']],2,"['&exp;', '&adv;']","[""I fear that it's likely that""]"
+['早かれ遅かれ'],[['はやかれおそかれ']],2,"['&exp;', '&adv;']",['sooner or later']
+['何処にも彼処にも'],[['どこにもかしこにも']],2,['&adv;'],"['all over', 'everywhere']"
+['善くぞ'],[['よくぞ']],2,['&adv;'],"['how admirably', 'how wonderfully', 'how skillfully']"
+['異に'],[['けに']],2,['&adv;'],"['outstandingly', 'extraordinarily', 'exceptionally']"
+['日に異に'],[['ひにけに']],2,"['&exp;', '&adv;']","['with each new day', 'day by day', 'by the day']"
+['お互いに'],[['おたがいに']],2,['&adv;'],"['mutually', 'with each other', 'reciprocally', 'together', 'both']"
+['誰にも増して'],[['だれにもまして']],2,"['&exp;', '&adv;']",['more than anybody']
+['浮かり'],[['うかり']],2,['&adv;'],"['carelessly', 'thoughtlessly', 'inadvertently']"
+['絶えることなく'],[['たえることなく']],2,['&adv;'],"['unceasing', 'relentless']"
+['善くもまあ'],[['よくもまあ']],2,['&adv;'],"['just how', 'how (dare you)']"
+['恥ずかしげもなく'],[['はずずかしげもなく']],2,"['&exp;', '&adv;']","['brazenly', 'unabashedly']"
+['時を移さず'],[['ときをうつさず']],2,"['&exp;', '&adv;']","['at once', 'immediately']"
+['声を限りに'],[['こえをかぎりに']],2,"['&exp;', '&adv;']","[""at the top of one's voice""]"
+['翌々月'],[['よくよくげつ']],2,"['&n;', '&adv;']","['two months later', 'the month after next']"
+['お手柔らかに'],[['おてやわらかに']],2,['&adv;'],"['gently', 'mildly', 'leniently']"
+['善き程'],[['よきほど']],2,"['&n;', '&adv;']","['greatly', 'considerably']"
+['壁際'],[['かべぎわ']],2,"['&n;', '&adv;']","['close to the wall', 'alongside the wall']"
+['所狭しと'],"[['ところせましと'], ['ところせしと']]",2,['&adv;'],"['crowded', 'packed', 'crammed', 'cramped', 'filled', 'overflowing']"
+['築後'],[['ちくご']],2,"['&n;', '&adv;']","['after construction', 'after building', 'since construction']"
+['然許り'],[['さばかり']],2,['&adv;'],"['to that degree', 'that much']"
+['余念もなく'],[['よねんもなく']],2,['&adv;'],"['earnestly', 'intently', 'attentively', 'wholeheartedly']"
+['並べて'],[['なべて']],2,['&adv;'],"['in general', 'generally', 'usually']"
+['見境なく'],[['みさかいなく']],2,['&adv;'],['indiscriminately']
+['延いて'],[['ひいて']],2,['&adv;'],"['not only ... but also', 'in addition to', 'consequently']"
+['何処かしら'],[['どこかしら']],2,"['&exp;', '&adv;']","['in some way', 'somehow or other']"
+['片時も'],[['かたときも']],2,['&adv;'],['(not) even for a moment']
+['より一層'],[['よりいっそう']],2,"['&exp;', '&adv;']","['still more', 'even more', 'much more', 'all the more', 'further']"
+['なお一層'],[['なおいっそう']],2,['&adv;'],"['further', 'farther', 'furthermore', 'all the more', 'even more']"
+['職として'],[['しょくとして']],2,"['&exp;', '&adv;']","['mainly', 'principally', 'chiefly', 'for the most part']"
+['快快的'],"[['カイカイデ'], ['カイカイデー']]",2,['&adv;'],"['hurriedly', 'rapidly', 'swiftly']"
+['否応なく'],[['いやおうなく']],2,['&adv;'],"['whether one wants to or not', 'without choice']"
+['狭に'],[['せに']],2,"['&exp;', '&adv;']","['with little space remaining', 'being almost full']"
+['辺り構わず'],[['あたりかまわず']],2,"['&exp;', '&adv;']","['indiscriminately', 'without consideration', 'irrespective of the occasion', 'paying no attention to the feelings or expectations of those nearby']"
+['普段から'],[['ふだんから']],2,"['&exp;', '&adv;', '&adj-no;']","['on a routine basis', 'regularly', 'habitually']"
+['間違いなく'],[['まちがいなく']],2,['&adv;'],"['clearly', 'unmistakably', 'certainly', 'without a doubt']"
+['汗まみれ'],[['あせまみれ']],2,"['&adj-no;', '&adv;']","['sweaty', 'sweat-drenched', 'covered in sweat']"
+['並んで'],[['ならんで']],2,['&adv;'],"['alongside', 'side-by-side', 'abreast']"
+['何故だか'],[['なぜだか']],2,['&adv;'],"['somehow', 'for some reason', 'without knowing why']"
+['息も絶え絶え'],[['いきもたえだえ']],2,"['&adj-no;', '&adv;']",['gasping']
+['逆さ吊り'],[['さかさづり']],2,['&adv;'],['hanging upside down']
+['隙も与えず'],[['すきもあたえず']],2,"['&exp;', '&adv;']","['before one could', 'in no time at all', 'without a gap']"
+['目の届くところに'],[['めのとどくところに']],2,"['&exp;', '&adv;']","['within eyeshot', 'within sight', 'in view']"
+['目の届かないところに'],[['めのとどかないところに']],2,"['&exp;', '&adv;']","['out of sight', 'out of eyeshot']"
+['前後の見境もなく'],[['ぜんごのみさかいもなく']],2,"['&exp;', '&adv;']","['without considering the consequences', 'recklessly', 'imprudently', 'going overboard']"
+['油断なく'],[['ゆだんなく']],2,['&adv;'],"['alertly', 'vigilantly', 'warily', 'diligently', 'attentively']"
+['突として'],[['とつとして']],2,['&adv;'],"['suddenly', 'all of a sudden']"
+['平更'],[['ひらさら']],2,['&adv;'],"['earnestly', 'intently', 'determinedly', 'by all means']"
+['その際'],[['そのさい']],2,"['&exp;', '&adv;']","['in so doing', 'when you do so', 'in this regard', 'on this occasion', 'some time during that period']"
+['何やら彼やら'],[['なにやらかやら']],2,['&adv;'],"['this and that', 'one thing or another']"
+['厚み方向'],[['あつみほうこう']],2,"['&n;', '&adv;']","['perpendicular direction', 'lengthwise direction']"
+['辛く'],[['つらく']],2,['&adv;'],"['harshly', 'bitterly', 'cruelly', 'badly']"
+['実際は'],[['じっさいは']],2,"['&exp;', '&adv;']","['in fact', 'as a matter of fact', 'actually', 'in reality', 'to tell the truth']"
+['実際のところ'],[['じっさいのところ']],2,"['&exp;', '&adv;']","['actually', 'in fact', 'as a matter of fact']"
+['突出して'],[['とっしゅつして']],2,"['&exp;', '&adv;']","['especially', 'exceptionally', 'remarkably', 'conspicuously']"
+['程々に'],[['ほどほどに']],2,['&adv;'],"['moderately', 'in moderation']"
+['将'],[['はた']],2,['&adv;'],"['or', 'otherwise']"
+['一緒くたに'],[['いっしょくたに']],2,['&adv;'],"['jumbling together', 'lumping together', 'mixing up']"
+['掻い暮れ'],[['かいくれ']],2,['&adv;'],"['(not) at all', 'wholly', 'entirely', 'completely', 'totally']"
+['いつにも増して'],[['いつにもまして']],2,"['&exp;', '&adv;']","['more than usual', 'especially', 'particularly']"
+['憎からず'],[['にくからず']],2,"['&exp;', '&adv;']","['affectionately', 'tenderly', 'lovingly']"
+['何故に'],"[['なぜに'], ['なにゆえに']]",2,['&adv;'],"['why', 'how']"
+['偉く'],[['えらく']],2,['&adv;'],"['exceedingly', 'excessively', 'extremely', 'extraordinarily', 'remarkably', 'greatly', 'immensely', 'awfully']"
+['面倒がらず'],[['めんどうがらず']],2,"['&exp;', '&adv;']","['without getting annoyed', 'without being bothered', 'diligently', 'properly', 'carefully']"
+['世界を舞台に'],[['せかいをぶたいに']],2,"['&exp;', '&adv;']","['globally', 'on the global stage', 'on a worldwide level']"
+['偶然にも'],[['ぐうぜんにも']],2,['&adv;'],"['by chance', 'coincidentally', 'as it happens']"
+['要領よく'],[['ようりょうよく']],2,"['&exp;', '&adv;']","['quickly and skillfully', 'to the point', 'succinctly', 'concisely']"
+['何処だって'],[['どこだって']],2,['&adv;'],['where?']
+['八割方'],[['はちわりがた']],2,['&adv;'],"['about 80%', 'almost certainly', 'mostly']"
+['可能な限り'],[['かのうなかぎり']],2,"['&exp;', '&adv;']","['as much as possible', 'as far as possible', 'whenever possible', 'if (at all) possible']"
+['真心を込めて'],[['まごころをこめて']],2,"['&exp;', '&adv;']","['wholeheartedly', ""with all one's heart"", 'cordially', 'sincerely']"
+['交互に'],[['こうごに']],2,['&adv;'],"['alternately', 'by turns', 'one after the other']"
+['先晩'],[['せんばん']],2,"['&n;', '&adv;']","['the other evening', 'a few nights ago']"
+['普通に'],"[['ふつうに'], ['フツーに']]",2,['&adv;'],"['normally', 'ordinarily', 'usually', 'generally', 'commonly']"
+['故意に'],[['こいに']],2,['&adv;'],"['deliberately', 'intentionally', 'on purpose', 'purposely']"
+['自在に'],[['じざいに']],2,['&adv;'],"['freely', 'at will', 'with ease']"
+['相互いに'],[['あいたがいに']],2,['&adv;'],"['mutually', 'with each other', 'reciprocally', 'together']"

@@ -1,0 +1,13 @@
+Kanji,Reading,JLPT,Type,Meaning
+['頁'],[['ページ']],100,"['&n;', '&ctr;']",['page']
+['挺'],[['ちょう']],100,['&ctr;'],"['counter for long and narrow things such as guns, scissors, spades, hoes, inksticks, palanquins, candles, jinrikishas, shamisen, oars, etc.']"
+['牌'],[['パイ']],100,"['&n;', '&ctr;']",['tile']
+['刎'],[['はね']],100,"['&suf;', '&ctr;']","['counter for helmets, etc.']"
+['艘'],[['そう']],100,['&ctr;'],['counter for (small) boats']
+['竿'],[['かん']],100,"['&suf;', '&ctr;']","['counter for poles, rods, etc.']"
+['輛'],[['りょう']],100,['&ctr;'],"['counter for carriages (e.g. in a train)', 'counter for vehicles']"
+['萬'],"[['ワン'], ['マン']]",100,['&ctr;'],['counter for character tiles']
+['朶'],[['だ']],100,['&ctr;'],"['branch (of flowers)', 'cluster', 'mass (of clouds)']"
+['貼'],[['ちょう']],100,"['&suf;', '&ctr;']","['counter for doses of medicine, etc.']"
+['旒'],[['りゅう']],100,['&ctr;'],"['counter for flags, banners, etc.']"
+['簾'],[['れん']],100,"['&n;', '&ctr;']","['bamboo screen', 'rattan blind']"

@@ -33,8 +33,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  dashbook: ^0.1.5
+  bottom_navy_bar: ^6.0.0
   flame: ^1.0.0-releasecandidate.16
+  flutter_animation_progress_bar: any
+  material_design_icons_flutter: any
+  glassmorphism: any
 
 dev_dependencies:
   flutter_test:

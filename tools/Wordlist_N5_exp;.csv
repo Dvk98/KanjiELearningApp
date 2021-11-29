@@ -1,0 +1,455 @@
+Kanji,Reading,JLPT,Type,Meaning
+['いい年をして'],[['いいとしをして']],5,['&exp;'],['(in spite of) being old enough to know better']
+['行けない'],[['いけない']],5,['&exp;'],"['wrong', 'not good', 'of no use']"
+['お休みなさい'],[['おやすみなさい']],5,['&exp;'],['good night']
+['からと言って'],[['からといって']],5,['&exp;'],"['just because', 'even if', 'even though']"
+['ざまを見ろ'],[['ざまをみろ']],5,['&exp;'],"['serves you right!', 'see what happens!']"
+['その上で'],[['そのうえで']],5,['&exp;'],"['moreover', 'in addition']"
+['と言うもの'],[['というもの']],5,['&exp;'],"['something like ...', 'something called ...']"
+['とも言う'],[['ともいう']],5,['&exp;'],['also called']
+['と言えば'],[['といえば']],5,['&exp;'],['speaking of ...']
+['何じゃそりゃ'],"[['なんじゃそりゃ'], ['なんじゃそら']]",5,['&exp;'],"[""what's that?"", 'what the...']"
+['何にしても'],"[['なんにしても'], ['なににしても']]",5,['&exp;'],"['even so', 'anyhow', 'at any rate']"
+['ほとんどの人'],[['ほとんどのひと']],5,['&exp;'],['almost everyone']
+['ピントが外れる'],[['ピントがはずれる']],5,"['&v1;', '&exp;']",['to be out of focus']
+['ある人'],[['あるひと']],5,"['&n;', '&exp;']","['someone (unspecified, but someone in particular)', 'a certain person']"
+['一言二言'],[['ひとことふたこと']],5,['&exp;'],['a word or two']
+['一人で'],[['ひとりで']],5,['&exp;'],"['alone', 'by oneself', ""on one's own""]"
+['右から左へ'],[['みぎからひだりへ']],5,['&exp;'],"['from right to left', 'in one ear and out the other']"
+['右と言えば左'],[['みぎといえばひだり']],5,['&exp;'],['always contradicting what other people say']
+['嘘っ八百'],[['うそっぱっぴゃく']],5,['&exp;'],['full of lies']
+['下さい'],[['ください']],5,['&exp;'],['please (give me)']
+['何かにつけて'],[['なにかにつけて']],5,['&exp;'],"['in various ways', 'in all sorts of ways', 'at every opportunity', 'whenever there is a chance']"
+['何かかにか'],[['なにかかにか']],5,['&exp;'],"['this and that', 'something or other', 'one thing or another']"
+['何が何だか'],[['なにがなんだか']],5,['&exp;'],"[""what's what"", 'heads or tails']"
+['何とか'],[['なんとか']],5,['&exp;'],"['something', 'something or other', 'so-and-so']"
+['何とかかんとか'],[['なんとかかんとか']],5,['&exp;'],"['something or other', 'somehow']"
+['何という'],"[['なんという'], ['なんとゆう']]",5,['&exp;'],"['how (beautiful, etc.)', 'what a ...']"
+['何も'],[['なにも']],5,['&exp;'],"['(not) anything', '(nothing) at all', '(not) any', 'nothing']"
+['何を言うてんねん'],"[['なにをいうてんねん'], ['なにをゆうてんねん']]",5,['&exp;'],['what the hell are you saying?']
+['なぜかと言うと'],[['なぜかというと']],5,['&exp;'],"['because', 'the reason why is']"
+['何時から'],[['いつから']],5,['&exp;'],"['since when', 'from when', 'how long']"
+['何時何時までも'],[['いついつまでも']],5,['&exp;'],"['indefinitely', 'for a long time']"
+['何時間'],[['なんじかん']],5,['&exp;'],['how many hours?']
+['何日'],[['なんにち']],5,['&exp;'],['what day']
+['蛙の子は蛙'],[['かえるのこはかえる']],5,['&exp;'],"['like father, like son', ""the apple doesn't fall far from the tree"", {'_': 'the child of a frog is a frog', '$': {'g_type': 'lit'}}]"
+['気をつけ'],[['きをつけ']],5,['&exp;'],['(stand to) attention!']
+['空で'],[['そらで']],5,['&exp;'],"[""off the top of one's head"", 'from thin air']"
+['言ったって'],[['いったって']],5,['&exp;'],['even if I told you']
+['言わぬが花'],[['いわぬがはな']],5,['&exp;'],"['some things are better left unsaid', 'silence is golden']"
+['後から後から'],[['あとからあとから']],5,['&exp;'],"['one after another', 'in rapid succession']"
+['今が今'],[['いまがいま']],5,['&exp;'],['just now']
+['今が今まで'],[['いまがいままで']],5,['&exp;'],['till just now']
+['少なげ'],[['すくなげ']],5,['&exp;'],['scarcity']
+['人らしい'],[['ひとらしい']],5,['&exp;'],"['like a decent person', 'human']"
+['人前で'],[['ひとまえで']],5,['&exp;'],"['in public', 'in company']"
+['煎り立て'],[['いりたて']],5,['&exp;'],['freshly parched']
+['大まかに言えば'],[['おおまかにいえば']],5,['&exp;'],"['generally speaking', 'in a broad way']"
+['中には'],[['なかには']],5,['&exp;'],"['among (them)', 'of (them)']"
+['二足のわらじ'],[['にそくのわらじ']],5,['&exp;'],"['many irons in the fire', 'engaged in two trades at the same time', 'wearing two hats']"
+['年が年'],[['としがとし']],5,['&exp;'],['considering this age']
+['年ぶり'],[['ねんぶり']],5,['&exp;'],"['after an interval of ... years', 'for the first time in ... years']"
+['ただ今'],[['ただいま']],5,"['&int;', '&exp;']","['here I am', ""I'm home!""]"
+['ざま見ろ'],[['ざまみろ']],5,['&exp;'],"['serves you right!', 'see what happens!']"
+['来る日も来る日も'],[['くるひもくるひも']],5,['&exp;'],"['day after day', 'day in and day out', 'every single day']"
+['来立て'],[['きたて']],5,['&exp;'],['new arrival']
+['穢土'],[['えど']],5,['&exp;'],['this impure world (as opposed to the pure land)']
+['剃立て'],"[['すりたて'], ['そりたて']]",5,['&exp;'],"['clean shaven', 'freshly shaven']"
+['口をつける'],[['くちをつける']],5,"['&v1;', '&exp;']","['to taste', 'to try (food or drink)']"
+['何でも'],[['なんでも']],5,['&exp;'],"['any', 'anything', 'whatever', 'whatever one likes', 'everything', 'all']"
+['行けません'],[['いけません']],5,['&exp;'],"['wrong', 'not good', 'of no use']"
+['見よう見まね'],[['みようみまね']],5,['&exp;'],"['learning by watching others', 'learning by imitation']"
+['屑入れ屑出し'],[['くずいれくずだし']],5,['&exp;'],"['garbage in, garbage out']"
+['下の下'],[['げのげ']],5,['&exp;'],"['the lowest (of its kind)', 'the poorest']"
+['一から十まで'],[['いちからじゅうまで']],5,['&exp;'],"['from A to Z', 'without exception', 'in every particular']"
+['と言って'],[['といって']],5,['&exp;'],"['however', 'because', 'as']"
+['と来たら'],[['ときたら']],5,['&exp;'],"['when it comes to ...', 'concerning', 'where ... are concerned']"
+['金ずくで'],[['かねずくで']],5,['&exp;'],"['for money', 'just for money', 'by means of money', 'by force of money']"
+['手生け'],[['ていけ']],5,['&exp;'],"[""doing one's own flower arranging""]"
+['見ざる聞かざる言わざる'],[['みざるきかざるいわざる']],5,['&exp;'],"['see no evil, hear no evil, and speak no evil', 'the three wise monkeys']"
+['日一日と'],[['ひいちにちと']],5,['&exp;'],['day by day']
+['水入らずで'],[['みずいらずで']],5,['&exp;'],"['privately', 'with outsiders barred', 'en famille']"
+['出たて'],[['でたて']],5,['&exp;'],"['right after coming out', 'just graduated']"
+['木の下'],"[['このもと'], ['このした']]",5,['&exp;'],['under a tree']
+['何が何だかわからない'],[['なにがなんだかわからない']],5,['&exp;'],"[""not knowing what's what"", 'being unable to make heads or tails']"
+['一言も言わず'],[['ひとこともいわず']],5,['&exp;'],['without saying a word']
+['本の間'],[['ほんのあいだ']],5,['&exp;'],['between the pages of a book']
+['また逢う日まで'],[['またあうひまで']],5,['&exp;'],['till we meet again']
+['と言う'],"[['という'], ['とゆう']]",5,['&exp;'],"['called', 'named', 'that says', 'that']"
+['なんて目じゃない'],[['なんてめじゃない']],5,['&exp;'],"[""it's not a problem"", ""it's not a big deal"", '(person or thing) can be easily beaten or bettered (by one)']"
+['何時だって'],[['いつだって']],5,['&exp;'],"['always', 'at any time']"
+['あの手この手'],[['あのてこのて']],5,['&exp;'],"['this way and that', '(by) various means', '(by) every means']"
+['そう言えば'],[['そういえば']],5,['&exp;'],"['now that you mention it', 'come to think of it', 'that reminds me', 'on that subject', 'speaking of which']"
+['そうして見ると'],[['そうしてみると']],5,['&exp;'],['when looked at in that way']
+['週一日'],[['しゅういちにち']],5,['&exp;'],['one day a week']
+['週二日'],[['しゅうふつか']],5,['&exp;'],['two days a week']
+['週三日'],[['しゅうみっか']],5,['&exp;'],['three days a week']
+['週四日'],[['しゅうよっか']],5,['&exp;'],['four days a week']
+['週五日'],[['しゅういつか']],5,['&exp;'],['five days a week']
+['週六日'],[['しゅうむいか']],5,['&exp;'],['six days a week']
+['週七日'],[['しゅうなのか']],5,['&exp;'],['seven days a week']
+['大なり小なり'],[['だいなりしょうなり']],5,['&exp;'],"['to a greater or lesser extent (degree)', 'more or less']"
+['多かれ少なかれ'],[['おおかれすくなかれ']],5,['&exp;'],"['to a greater or lesser extent (degree)', 'more or less']"
+['この上ない'],[['このうえない']],5,['&exp;'],"['the most', 'the best', 'peerless', 'the greatest', 'first-rate']"
+['この上なく'],[['このうえなく']],5,['&exp;'],"['most of all', 'extremely', 'supremely']"
+['前の週'],[['まえのしゅう']],5,['&exp;'],['previous week']
+['その時'],[['そのとき']],5,['&exp;'],"['at that time', 'at that moment', 'then', 'on that occasion']"
+['もう少し'],[['もうすこし']],5,['&exp;'],"['a bit more', 'a bit longer']"
+['何でもかでも'],[['なんでもかでも']],5,['&exp;'],"['anything and everything', 'all sorts of things', 'by all means']"
+['何年間'],[['なんねんかん']],5,['&exp;'],['many years']
+['何年生'],[['なんねんせい']],5,['&exp;'],['what grade (in school)']
+['そう言った'],[['そういった']],5,['&exp;'],"['like that', 'this type']"
+['と言うのも'],[['というのも']],5,['&exp;'],['because']
+['まさかの時'],[['まさかのとき']],5,['&exp;'],"['in time of need', 'for a rainy day', 'in case of emergency']"
+['魚の食い'],[['さかなのくい']],5,['&exp;'],"['fish biting (striking, taking bait)']"
+['いつの日にか'],[['いつのひにか']],5,['&exp;'],"['one of these days', 'someday', 'one day']"
+['いったい何なんですか'],[['いったいなんなんですか']],5,['&exp;'],"['what is it exactly?', 'what is it precisely']"
+['聞きもしないで'],[['ききもしないで']],5,['&exp;'],"['without even asking', 'without even listening', 'without careful inquiry (enquiry)']"
+['行ってきます'],[['いってきます']],5,['&exp;'],"[""I'm off"", 'see you later']"
+['あっち行け'],[['あっちいけ']],5,['&exp;'],['get away from me!']
+['ああ見えても'],[['ああみえても']],5,['&exp;'],['despite appearances']
+['も一つ'],[['もひとつ']],5,['&exp;'],"['furthermore', 'adding to the above-mentioned']"
+['言いながら'],[['いいながら']],5,['&exp;'],"['with these words', 'while saying']"
+['生きていかれない'],[['いきていかれない']],5,['&exp;'],"[""can't survive (without ...)""]"
+['前ほど'],[['まえほど']],5,['&exp;'],"['to the previous extent', 'as much as previously', 'as much as one used to']"
+['ずっと前に'],[['ずっとまえに']],5,['&exp;'],['a long time ago']
+['生のままで'],[['きのままで']],5,['&exp;'],['straight (e.g. whiskey)']
+['何から何まで'],[['なにからなにまで']],5,['&exp;'],"['anything and everything', 'from top to toe', 'from A to Z']"
+['上手下手'],[['じょうずへた']],5,['&exp;'],"['good and bad (at doing something)', 'good or bad']"
+['いくら何でも'],[['いくらなんでも']],5,['&exp;'],"['no matter how you put it', 'whatever the circumstances may be', 'say what you like', 'no matter how you look at it']"
+['よりによって今日'],[['よりによってきょう']],5,['&exp;'],['today of all days']
+['大きく水をあけて'],[['おおきくみずをあけて']],5,['&exp;'],['by a comfortable margin']
+['この分'],[['このぶん']],5,['&exp;'],['at this rate']
+['言っぱ'],[['いっぱ']],5,['&exp;'],"['as for ...', 'when it comes to ...', 'regarding ...']"
+['言っとくけど'],[['いっとくけど']],5,['&exp;'],"['for your information', ""I'm telling you""]"
+['後生だから'],[['ごしょうだから']],5,['&exp;'],"[""for goodness' sake"", 'for the love of God', 'I implore you, ...', 'I beg of you, ...']"
+['出来っこない'],[['できっこない']],5,['&exp;'],['can never be able to']
+['言わずもがな'],[['いわずもがな']],5,['&exp;'],"['(it) goes without saying', ""needn't be said""]"
+['何人でも'],[['なんにんでも']],5,['&exp;'],['any number of people']
+['一から'],[['いちから']],5,['&exp;'],"['from the beginning', 'from scratch']"
+['言うまでもなく'],"[['いうまでもなく'], ['ゆうまでもなく']]",5,['&exp;'],"['obviously', 'as we all know', 'needless to say', 'of course', 'it goes without saying']"
+['間もない頃'],[['まもないころ']],5,['&exp;'],"['in the early period (of something)', 'at the beginning']"
+['足りとも'],[['たりとも']],5,['&exp;'],"['(not) even', '(not) any']"
+['だから何だ'],[['だからなんだ']],5,['&exp;'],"['so what!', 'who gives a damn?']"
+['何とでも'],[['なんとでも']],5,['&exp;'],['whatever']
+['何としても'],[['なんとしても']],5,['&exp;'],"['no matter what it takes', 'by any means necessary', 'at all costs', 'by hook or by crook']"
+['もう一つ'],[['もうひとつ']],5,['&exp;'],"['another', 'one more']"
+['ツーと言えばカー'],"[['ツーといえばカー'], ['つうといえばかあ']]",5,['&exp;'],"['quick to take a hint', 'very responsive', 'quick on the uptake']"
+['何かと言うと'],[['なにかというと']],5,['&exp;'],"['on the least pretext', 'at the drop of a hat']"
+['目じゃない'],[['めじゃない']],5,['&exp;'],"['no big deal', 'no match', 'not worth worrying about']"
+['いたちの道'],[['いたちのみち']],5,['&exp;'],"['not to write to or visit someone', {'_': 'road of the weasel (it is believed that if someone blocks the path a weasel, he will never take that path again)', '$': {'g_type': 'lit'}}]"
+['何れも此れも'],[['どれもこれも']],5,['&exp;'],"['each and every', 'all']"
+['濡れ手に粟'],[['ぬれてにあわ']],5,['&exp;'],['easy profit']
+['後入れ先出し'],[['あといれさきだし']],5,['&exp;'],"['last in, first out', 'LIFO']"
+['先入れ先出し'],[['さきいれさきだし']],5,['&exp;'],"['first in, first out', 'FIFO']"
+['先出し'],[['さきだし']],5,['&exp;'],['first out']
+['先入れ'],[['さきいれ']],5,['&exp;'],['first in']
+['雨後の筍'],"[['うごのたけのこ'], ['うごのタケノコ']]",5,['&exp;'],"['similar things turning up one after another', {'_': 'bamboo shoots after rain', '$': {'g_type': 'lit'}}]"
+['雨のやみ間'],[['あめのやみま']],5,['&exp;'],"['break in the rain', 'letup in the rain']"
+['いらして下さい'],[['いらしてください']],5,['&exp;'],"['please come (and visit us)', 'please come (to our shop)']"
+['いらっしゃって下さい'],[['いらっしゃってください']],5,['&exp;'],"['please come (and visit us)', 'please come (to our shop)']"
+['こちらの話'],[['こちらのはなし']],5,['&exp;'],['matter being discussed (e.g. in a private conversation)']
+['お後がよろしいようで'],[['おあとがよろしいようで']],5,['&exp;'],"[""that's all from me, and now the next speaker""]"
+['耳そろえて'],[['みみそろえて']],5,['&exp;'],"['all at once (usu. of payment)', 'at one go']"
+['みなまで言うな'],[['みなまでいうな']],5,['&exp;'],"[""don't finish what you're saying"", ""stop what you're saying""]"
+['と言うのに'],[['というのに']],5,['&exp;'],"['even though', 'despite', 'when']"
+['言うなれば'],[['いうなれば']],5,['&exp;'],['so to speak']
+['かたいことは言いっこなし'],[['かたいことはいいっこなし']],5,['&exp;'],"[""let's put formalities aside"", ""let's not speak so stiffly""]"
+['言いっこなし'],[['いいっこなし']],5,['&exp;'],"[""let's not say (such things) to each other""]"
+['いよいよという時'],[['いよいよというとき']],5,['&exp;'],"['(at the) last moment', '(in the) nick of time']"
+['今のうち'],[['いまのうち']],5,['&exp;'],"['now (while the time is ripe)', 'while one still can']"
+['一擲千金'],[['いってきせんきん']],5,['&exp;'],"[""being lavish with one's money"", 'spending a huge sum of money at once on a treat']"
+['手も足も出ない'],[['てもあしもでない']],5,['&exp;'],"['cannot do a thing', 'feeling handcuffed', ""being at the end of one's tether"", ""being at one's wit's end""]"
+['おまんまの食い上げ'],[['おまんまのくいあげ']],5,['&exp;'],['losing the means of livelihood']
+['何はさておき'],[['なにはさておき']],5,['&exp;'],"['before anything else', 'first of all']"
+['何はともあれ'],[['なにはともあれ']],5,['&exp;'],"['at any rate', 'in any case', 'at the very least', 'if nothing else']"
+['何人たりとも'],"[['なんぴとたりとも'], ['なにびとたりとも'], ['なんびとたりとも']]",5,['&exp;'],"['no one at all', 'no one, who he or she may be']"
+['何をかいわんや'],[['なにをかいわんや']],5,['&exp;'],"['what more can one say?', 'utterly at a loss for words (because of disbelief or disgust)']"
+['本来なら'],[['ほんらいなら']],5,['&exp;'],"['by all rights', 'properly speaking', 'legally speaking']"
+['万一のため'],[['まんいちのため']],5,['&exp;'],['just in case']
+['何だっていい'],[['なんだっていい']],5,['&exp;'],"[""it doesn't matter what"", 'anything is fine']"
+['何でもいい'],[['なんでもいい']],5,['&exp;'],"[""it doesn't matter what"", 'anything is fine']"
+['一つとっても'],[['ひとつとっても']],5,['&exp;'],['one example of (when there are more examples)']
+['ご多分にもれず'],[['ごたぶんにもれず']],5,['&exp;'],"['as is usual with', 'in common with']"
+['その手は食わない'],[['そのてはくわない']],5,['&exp;'],"['I am not going to fall for that trick', ""that trick won't work on me""]"
+['日がな一日'],[['ひがないちにち']],5,['&exp;'],['all day long']
+['とは言うものの'],[['とはいうものの']],5,['&exp;'],"['having said that', 'be that as it may']"
+['言うところの'],[['いうところの']],5,['&exp;'],"['what is called', 'as it is called', 'the so-called', 'known as', 'so to speak']"
+['西も東も分からない'],[['にしもひがしもわからない']],5,['&exp;'],"[""not knowing one's way around"", 'not familiar with the area', 'not knowing what to do']"
+['耳を揃えて'],[['みみをそろえて']],5,['&exp;'],['(to pay off) in full']
+['火の中水の中'],[['ひのなかみずのなか']],5,['&exp;'],['hell and high water']
+['かと言って'],[['かといって']],5,['&exp;'],"['having said that', 'on the other hand']"
+['と言うと'],[['というと']],5,['&exp;'],"['when it comes to ...', 'if one were to speak of ...', 'when one hears ...']"
+['どちらかと言うと'],[['どちらかというと']],5,['&exp;'],"['if anything', ""if pushed I'd say"", 'if I had to say']"
+['どちらかと言えば'],[['どちらかといえば']],5,['&exp;'],"['if anything', ""if pushed I'd say"", 'if I had to say']"
+['もう少しで'],[['もうすこしで']],5,['&exp;'],"['almost', 'nearly', 'close to']"
+['もう少しのところで'],[['もうすこしのところで']],5,['&exp;'],"['almost', 'nearly', 'close to']"
+['と言ってもいい'],"[['といってもいい'], ['といってもよい']]",5,['&exp;'],"['you could say', 'you might say', 'verging on the']"
+['と言うことはない'],[['ということはない']],5,['&exp;'],"['it is not possible (to, that)', 'there is no such thing as']"
+['おくびにも出さない'],[['おくびにもださない']],5,['&exp;'],"['not revealing (thoughts, feelings)', 'not breathing a word']"
+['百聞は一見にしかず'],[['ひゃくぶんはいっけんにしかず']],5,['&exp;'],"['seeing is believing', 'one eye-witness is better than many hearsays', 'a picture is worth a thousand words']"
+['時は金なり'],[['ときはかねなり']],5,['&exp;'],['time is money']
+['おととい来やがれ'],[['おとといきやがれ']],5,['&exp;'],"[""don't you ever come here again!"", {'_': 'come here the day before yesterday', '$': {'g_type': 'lit'}}]"
+['新年おめでとう'],[['しんねんおめでとう']],5,['&exp;'],['Happy New Year']
+['新年おめでとうございます'],[['しんねんおめでとうございます']],5,['&exp;'],['Happy New Year']
+['と言えど'],[['といえど']],5,['&exp;'],"['be (that) as it may', 'having said that']"
+['三日と上げず'],[['みっかとあげず']],5,['&exp;'],"['almost every day', 'constantly']"
+['行ってまいります'],[['いってまいります']],5,['&exp;'],"['good bye', ""I'm off"", 'see you later']"
+['見る間に'],[['みるまに']],5,['&exp;'],"['quickly, suddenly (while one is watching)', ""before one's eyes""]"
+['そう来なくっちゃ'],[['そうこなくっちゃ']],5,['&exp;'],"['I thought so', 'I suspected as much', 'Just as I thought', 'Now you are talking', ""That's the spirit""]"
+['目の上のたんこぶ'],[['めのうえのたんこぶ']],5,['&exp;'],"[""a thorn in one's side"", 'a pain in the butt (often someone higher in rank, ability, etc.)', ""a person standing in one's way"", ""a superior who obstructs one's freedom of action""]"
+['人の口'],[['ひとのくち']],5,['&exp;'],"['what people say', 'rumours', 'public opinion']"
+['でなくて何だろう'],[['でなくてなんだろう']],5,['&exp;'],"['if not ... then what is it?', '(this) is nothing other than ...', '(it) must be ...', '(it) is definitely ...']"
+['分からん'],[['わからん']],5,['&exp;'],"[""I don't know""]"
+['時間のたつ'],[['じかんのたつ']],5,['&exp;'],"['passage of time', 'perceived time', 'relative time']"
+['それ来た'],[['それきた']],5,['&exp;'],"['there it is', 'there it comes', 'got it', 'of course', 'it figures', 'I knew it']"
+['今はこれまで'],[['いまはこれまで']],5,"['&conj;', '&exp;', '&adv;']","['unavoidable', 'this is it', 'this is the end', 'left with no choice', ""it's all over now""]"
+['しばしば目'],[['しばしばめ']],5,['&exp;'],"['blinking away tears', 'blinking tear filled eyes']"
+['言えてる'],[['いえてる']],5,['&exp;'],"['You can say that again', 'Nice one']"
+['ブルータスお前もか'],[['ブルータスおまえもか']],5,['&exp;'],"['et tu, Brute?', 'even you, Brutus?']"
+['何れにも'],[['どれにも']],5,['&exp;'],['none']
+['どれ一つ'],[['どれひとつ']],5,['&exp;'],['not one']
+['何時から'],[['なんじから']],5,['&exp;'],['from what time']
+['日頃の行い'],[['ひごろのおこない']],5,['&exp;'],"[""one's habitual behaviour (behavior)""]"
+['上では'],[['うえでは']],5,['&exp;'],"['from the viewpoint of', 'according to']"
+['子は鎹'],[['こはかすがい']],5,['&exp;'],"['children are a bond between husband and wife', 'children hold marriages together']"
+['こう言った'],[['こういった']],5,['&exp;'],"['this sort of', 'this type of']"
+['３時のおやつ'],[['さんじのおやつ']],5,['&exp;'],"['afternoon refreshment', 'afternoon tea']"
+['言わでも'],[['いわでも']],5,['&exp;'],"['goes without saying', ""needn't be said""]"
+['水魚'],[['すいぎょ']],5,['&exp;'],['water and fish']
+['男に二言はない'],[['おとこににごんはない']],5,['&exp;'],"[""a man's word is his bond"", ""a man does not go back on what he's said""]"
+['見かけによらず'],[['みかけによらず']],5,['&exp;'],"[""in contrast to (one's, its) appearance""]"
+['と言えなくもない'],[['といえなくもない']],5,['&exp;'],['(one) could even say that']
+['その分'],[['そのぶん']],5,['&exp;'],['to that extent']
+['お出でなさい'],[['おいでなさい']],5,['&exp;'],"['come', 'go', 'stay']"
+['それ見ろ'],[['それみろ']],5,['&exp;'],"['well, look at that']"
+['見して'],[['みして']],5,['&exp;'],['show me']
+['言わんこっちゃない'],[['いわんこっちゃない']],5,['&exp;'],['I told you so']
+['言わないことではない'],[['いわないことではない']],5,['&exp;'],['I told you so']
+['口にチャック'],[['くちにチャック']],5,['&exp;'],"['zip it (when used to others)', ""I'll shut up (when used by oneself)"", ""button (one's) lips""]"
+['行けども行けども'],[['いけどもいけども']],5,['&exp;'],"['as (one) walks on, and on']"
+['気もない'],[['けもない']],5,['&exp;'],"['showing no signs of', 'there being no hint of']"
+['気の大きい'],[['きのおおきい']],5,['&exp;'],"['generous', 'big-hearted']"
+['日本語でおｋ'],"[['にほんごでおけ'], ['にほんごでオッケー'], ['にほんごでオーケー']]",5,['&exp;'],"[""you're not making any sense"", 'can I have that in Japanese?']"
+['何だったら'],[['なんだったら']],5,['&exp;'],"['if you are so inclined', 'if it suits you', 'if you like']"
+['言われてみれば'],[['いわれてみれば']],5,['&exp;'],"['now that you say that', 'now that you mention it']"
+['気前がいい'],"[['きまえがいい'], ['きまえがよい']]",5,['&exp;'],"['lavish', 'profuse']"
+['見かけによらない'],[['みかけによらない']],5,['&exp;'],"[""does not match (one's, its) appearance""]"
+['言いやがって'],[['いいやがって']],5,['&exp;'],"[""don't try and tell me that!"", ""don't try that shit on me""]"
+['見れば見るほど'],[['みればみるほど']],5,['&exp;'],['the more one looks (at it) the more...']
+['こっちの話'],[['こっちのはなし']],5,['&exp;'],"['matter being discussed (e.g. in a private conversation)', ""it's not your business"", ""it doesn't matter (to you)"", ""it's a private matter""]"
+['どうかと言うと'],[['どうかというと']],5,['&exp;'],"['if you ask me ...', 'as for ...']"
+['一人として'],[['ひとりとして']],5,['&exp;'],['as one of']
+['何ぞ'],"[['なんぞ'], ['なにぞ'], ['なぞ']]",5,['&exp;'],['something']
+['何なのか'],"[['なんなのか'], ['なになのか']]",5,['&exp;'],"['what is it (that)', 'the meaning of something', 'what something is about']"
+['人もあろうに'],[['ひともあろうに']],5,['&exp;'],['of all people']
+['ものは言いよう'],[['ものはいいよう']],5,['&exp;'],"['smooth words make smooth ways', ""it's not what you say, it's how you say it""]"
+['立ちっぱなし'],[['たちっぱなし']],5,['&exp;'],"[""standing on one's feet for a long time""]"
+['二つに一つ'],[['ふたつにひとつ']],5,['&exp;'],"['one of two (possibilities, alternatives, etc.)']"
+['誰一人として'],[['だれひとりとして']],5,['&exp;'],"['(not) a single person', '(no) one']"
+['そうした中で'],[['そうしたなかで']],5,['&exp;'],['meanwhile']
+['人を見る目'],[['ひとをみるめ']],5,['&exp;'],"['an eye for people', 'the ability to judge character']"
+['いい年して'],[['いいとしして']],5,['&exp;'],['(in spite of) being old enough to know better']
+['ウの目タカの目'],"[['ウのめタカのめ'], ['うのめたかのめ']]",5,['&exp;'],"['eyes of a predator', 'keen eyes', {'_': 'eyes of a cormorant, eyes of a hawk', '$': {'g_type': 'lit'}}]"
+['何時何分'],[['なんじなんぷん']],5,['&exp;'],"['at what time', 'when']"
+['と言ってしまえばそれまで'],[['といってしまえばそれまで']],5,['&exp;'],"['it is certain true that ... (but)', ""you can't argue that it's not ... (but)""]"
+['この分では'],[['このぶんでは']],5,['&exp;'],"['as affairs stand', 'judging from the present situation', 'as things are now']"
+['これより先'],[['これよりさき']],5,['&exp;'],"['ahead', 'further on', 'beyond (this place)']"
+['それ見たことか'],[['それみたことか']],5,['&exp;'],"['I told you so', 'you see that?']"
+['金が金を生む'],[['かねがこをうむ']],5,['&exp;'],['money begets money']
+['見ぬが花'],[['みぬがはな']],5,['&exp;'],"['reality can not compete with imagination', 'prospect is often better than possession']"
+['乞食を三日すればやめられぬ'],[['こじきをみっかすればやめられぬ']],5,['&exp;'],"['once a beggar, always a beggar', {'_': 'if one begs for three days, one cannot stop', '$': {'g_type': 'lit'}}]"
+['さらにも言わず'],[['さらにもいわず']],5,['&exp;'],['needless to say']
+['ここで会ったが百年目'],[['ここであったがひゃくねんめ']],5,['&exp;'],"['at last your time has come', 'I have found you at last']"
+['上には上がある'],[['うえにはうえがある']],5,['&exp;'],"['greatness is comparative', 'there is always someone better than you']"
+['人の噂も七十五日'],"[['ひとのうわさもしちじゅうごにち'], ['ひとのうわさもななじゅうごにち']]",5,['&exp;'],"['a wonder lasts but nine days', {'_': 'gossip lasts just 75 days', '$': {'g_type': 'lit'}}]"
+['人は見かけによらぬもの'],[['ひとはみかけによらぬもの']],5,['&exp;'],"['appearances can be deceiving', ""don't judge a book by its cover""]"
+['人生僅か五十年'],[['じんせいわずかごじゅうねん']],5,['&exp;'],"['life is short', {'_': 'life is just fifty years', '$': {'g_type': 'lit'}}]"
+['その時はその時'],[['そのときはそのとき']],5,['&exp;'],"[""we'll cross that bridge when we get there"", ""we'll think about it when the time comes""]"
+['タダより高いものはない'],"[['タダよりたかいものはない'], ['ただよりたかいものはない']]",5,['&exp;'],"['nothing costs as much as what is given to us', ""there's no such thing as a free lunch""]"
+['男やもめに蛆がわく'],[['おとこやもめにうじがわく']],5,['&exp;'],"['widowers are untidy', 'a man alone soon goes to seed', 'a man goes to pieces without a woman to look after him']"
+['東は東西は西'],[['ひがしはひがしにしはにし']],5,['&exp;'],"['East is East, and West is West']"
+['あちら立てればこちらが立たぬ'],[['あちらたてればこちらがたたぬ']],5,['&exp;'],"[""it's hard to please everybody"", ""damned if you do and damned if you don't""]"
+['小さい頃'],[['ちいさいころ']],5,['&exp;'],"['as a child', 'when one was a child']"
+['ゾンビ会社'],[['ゾンビかいしゃ']],5,['&exp;'],['zombie businesses (firms that would have failed but for government intervention)']
+['と言うより'],[['というより']],5,['&exp;'],['rather than']
+['聞いてみると'],[['きいてみると']],5,['&exp;'],"['on inquiry', 'if inquiring']"
+['尻が長い'],[['しりがながい']],5,['&exp;'],['being a guest for too long (e.g. of a neighbor)']
+['上と下'],[['うえとした']],5,['&exp;'],['above and below']
+['ちっちゃい人間'],[['ちっちゃいにんげん']],5,['&exp;'],"['person of poor character', 'narrow-minded', 'unpleasant person', 'gossip-monger', 'person of low self-esteem']"
+['百年前'],[['ひゃくねんまえ']],5,['&exp;'],"['one hundred years ago', 'a hundred year previously']"
+['あまりと言えば'],[['あまりといえば']],5,['&exp;'],['excessively']
+['気もそぞろ'],[['きもそぞろ']],5,['&exp;'],"['feeling restless', 'feeling nervous', 'fidgety', 'distracted']"
+['今までにも'],[['いままでにも']],5,['&exp;'],"['up until now', 'as recently as the present']"
+['何だっけ'],[['なんだっけ']],5,['&exp;'],['what is it?']
+['本来から言えば'],[['ほんらいからいえば']],5,['&exp;'],"['by all rights', 'legally speaking', 'properly speaking']"
+['本来であれば'],[['ほんらいであれば']],5,['&exp;'],"['by all rights', 'legally speaking', 'properly speaking']"
+['何日か'],[['なんにちか']],5,['&exp;'],"['some days', 'several days']"
+['いく日か'],[['いくにちか']],5,['&exp;'],"['some days', 'several days']"
+['また来週'],[['またらいしゅう']],5,['&exp;'],['see you next week']
+['何だこれは'],[['なんだこれは']],5,['&exp;'],['what on Earth is this?']
+['口をつぐむ'],[['くちをつぐむ']],5,"['&v5m;', '&exp;']","[""to hold one's tongue"", 'to shut up']"
+['嚢中の錐'],[['のうちゅうのきり']],5,['&exp;'],"['cream rises to the top', {'_': 'a drill in a bag (will always poke through)', '$': {'g_type': 'lit'}}]"
+['狐の子は頬白'],[['きつねのこはつらじろ']],5,['&exp;'],"['the apple does not fall far from the tree', 'the apple never falls far from the tree', {'_': 'fox pups have white cheeks', '$': {'g_type': 'lit'}}]"
+['言うことなし'],[['いうことなし']],5,['&exp;'],"['nothing one can say (e.g. about something perfect)', 'not a thing one can complain about', 'better than one could hope for']"
+['その日その日'],[['そのひそのひ']],5,['&exp;'],"['each day', 'from day to day', 'day-to-day']"
+['ないと行けません'],[['ないといけません']],5,['&exp;'],"['have to (verb)', 'must (verb)']"
+['これでもかと言うほど'],[['これでもかというほど']],5,['&exp;'],"[""as if it weren't already enough""]"
+['新しい女'],[['あたらしいおんな']],5,['&exp;'],['liberated woman']
+['その先'],[['そのさき']],5,['&exp;'],"['beyond that point', 'after that']"
+['多少なりとも'],[['たしょうなりとも']],5,['&exp;'],"['(even) if only a little', 'to some extent', 'in the slightest way']"
+['と言うことだ'],[['ということだ']],5,['&exp;'],"[""I've heard that ..."", 'rumour has it that ...']"
+['見るに見かねる'],[['みるにみかねる']],5,['&exp;'],"['unable to let pass unnoticed', 'unable to be indifferent', 'unable to just watch (without doing anything)', ""can't bear to see"", ""can't stand watching"", ""can't just stand by""]"
+['誰一人'],[['だれひとり']],5,['&exp;'],"['(not) anyone', '(not) a single person', 'no one', 'nobody']"
+['言ってみれば'],[['いってみれば']],5,['&exp;'],"['in a manner of speaking', 'as it were', 'so to speak', 'if you like', 'per se']"
+['今の今まで'],[['いまのいままで']],5,['&exp;'],['till just now']
+['一つにかかって'],"[['ひとつにかかって'], ['いちにかかって']]",5,['&exp;'],"['depends entirely on', 'depends above all on']"
+['手に手に'],[['てにてに']],5,['&exp;'],['each (carrying)']
+['少なくない'],[['すくなくない']],5,['&exp;'],"['not negligible', 'not a little', 'to no small degree', 'to no small extent', 'quite a lot']"
+['言った言わない'],[['いったいわない']],5,['&exp;'],"['he said, she said']"
+['右の耳から左の耳'],[['みぎのみみからひだりのみみ']],5,['&exp;'],['in one ear and out the other']
+['かくなる上は'],[['かくなるうえは']],5,['&exp;'],"[""now that it's come to this"", ""since it's come to this""]"
+['大のお気に入り'],[['だいのおきにいり']],5,['&exp;'],['most favorite thing']
+['耳がダンボ'],[['みみがダンボ']],5,['&exp;'],"[""pricking up one's ears and listening"", 'listening attentively']"
+['一日か二日'],[['いちにちかふつか']],5,['&exp;'],['(in) a day or two']
+['今日という今日'],[['きょうというきょう']],5,['&exp;'],"['this very day', 'today is the day (that ...)', 'today for sure']"
+['見ぬふり'],[['みぬふり']],5,['&exp;'],"['pretending not to see something', 'turning a blind eye to', ""burying one's head in the sand""]"
+['糞を食らえ'],[['くそをくらえ']],5,['&exp;'],"['eat shit!', 'fuck off!', 'fuck you!']"
+['何のことはない'],[['なんのことはない']],5,['&exp;'],"['trivial', 'not amounting to much', 'not enough to cause a problem', 'not as much as expected']"
+['この上とも'],[['このうえとも']],5,['&exp;'],"['from now on', 'in the future', 'further']"
+['後にも先にも'],[['あとにもさきにも']],5,"['&adv;', '&exp;']","['before or since', 'neither before nor after', ""no other time in one's life"", {'_': 'stressing a particular moment or event as being unique or most extreme', '$': {'g_type': 'expl'}}]"
+['そうは行かない'],"[['そうはいかない'], ['そうはイカない']]",5,['&exp;'],"['not a chance', 'you wish!', ""that's not going to happen"", ""that won't work""]"
+['えも言はず'],[['えもいわず']],5,['&exp;'],"['inexplicably', 'unexplainably']"
+['時んば'],[['ときんば']],5,['&exp;'],['at times when ...']
+['土足で'],[['どそくで']],5,['&exp;'],['with shoes on']
+['何がな'],[['なにがな']],5,['&exp;'],['something']
+['出ておいで'],[['でておいで']],5,['&exp;'],"['come out!', 'where are you?']"
+['何じゃ'],[['なんじゃ']],5,['&exp;'],['what']
+['人それぞれ'],[['ひとそれぞれ']],5,['&exp;'],"['to each his own', 'people differ', 'different people (have different likes)']"
+['見てろよ'],[['みてろよ']],5,['&exp;'],['just you wait and see (as a threat)']
+['何てったって'],[['なんてったって']],5,['&exp;'],"['no matter what', 'whatever you say', 'in the end']"
+['どう見ても'],[['どうみても']],5,['&exp;'],"['to all appearances', 'no matter how you look at it']"
+['下手すると'],[['へたすると']],5,['&exp;'],"['if one is unlucky', 'if one is careless', ""if things don't go well""]"
+['下手したら'],[['へたしたら']],5,['&exp;'],"['if one is unlucky', 'if one is careless']"
+['何たって'],[['なんたって']],5,['&exp;'],"['no matter what', 'whatever you say', 'in the end', 'after all']"
+['下手をすると'],[['へたをすると']],5,['&exp;'],"['if one is unlucky', 'if one is careless', ""if things don't go well""]"
+['耳タコ'],"[['みみタコ'], ['みみたこ']]",5,['&exp;'],['having been told something so often that one is fed up with it']
+['その中'],[['そのなか']],5,['&exp;'],"['wherein', 'therein', 'thereinto']"
+['何を言うとんねん'],[['なにをいうとんねん']],5,['&exp;'],['what the hell are you saying?']
+['何を言ってんねん'],[['なにをいってんねん']],5,['&exp;'],['what the hell are you saying?']
+['何のその'],[['なんのその']],5,['&exp;'],"['nothing special', 'no big deal', ""doesn't matter""]"
+['出かした'],[['でかした']],5,['&exp;'],"['well done', 'good job']"
+['かく言う'],[['かくいう']],5,['&exp;'],"['in this way', 'along these lines', 'similarly']"
+['先のことは分からない'],[['さきのことはわからない']],5,['&exp;'],"['one never knows (what will happen)', ""there's no telling (what the future holds)""]"
+['一つには'],[['ひとつには']],5,['&exp;'],['for one thing ...']
+['気になれない'],[['きになれない']],5,['&exp;'],"[""don't feel like doing"", ""can't bring oneself to do"", ""can't face""]"
+['あれよあれよという間に'],[['あれよあれよというまに']],5,['&exp;'],"['while looking on in blank amazement', ""before one's very eyes"", 'before one knew what was happening']"
+['あれよあれよと見る間に'],[['あれよあれよとみるまに']],5,['&exp;'],"['while looking on in blank amazement', 'while gazing at it in shock']"
+['気にしないで'],[['きにしないで']],5,['&exp;'],"[""don't worry about it"", 'forget about it']"
+['何としてでも'],[['なんとしてでも']],5,['&exp;'],"['no matter what it takes', 'by any means necessary', 'at all costs', 'by hook or by crook']"
+['そら来た'],[['そらきた']],5,['&exp;'],"['there it is', 'there it comes', 'got it', 'of course', 'it figures', 'I knew it']"
+['誰が見ても'],[['だれがみても']],5,['&exp;'],['as anyone can see']
+['八月大名'],[['はちがつだいみょう']],5,['&exp;'],['the 8th month has the least work for farmers']
+['何するものぞ'],[['なにするものぞ']],5,['&exp;'],"['nothing to be afraid of', 'trivial', 'not amounting to much', ""can't do anything""]"
+['飲まず食わず'],[['のまずくわず']],5,['&exp;'],['without eating or drinking']
+['言われるがまま'],[['いわれるがまま']],5,['&exp;'],['(doing) as one is told']
+['何にせよ'],[['なんにせよ']],5,['&exp;'],"['at any rate', 'anyhow', 'anyway', 'in any case', 'because']"
+['一人につき'],[['ひとりにつき']],5,['&exp;'],"['per capita', 'per person']"
+['子で子にならぬほととぎす'],[['こでこにならぬほととぎす']],5,['&exp;'],"[""no matter how lovingly raised, a foster child is not actually one's biological child""]"
+['前々から'],[['まえまえから']],5,['&exp;'],"['for a long time', 'since long ago', 'always', 'already', 'far in advance (e.g. reservation)']"
+['今になって'],[['いまになって']],5,"['&adv;', '&exp;']","['at this stage', 'at this point', 'now (contrasting with the past)']"
+['日々に新たなり'],[['ひびにあらたなり']],5,['&exp;'],['keep improving every day']
+['今までで'],[['いままでで']],5,['&exp;'],"['to date', 'as of now']"
+['何かといえば'],[['なにかといえば']],5,['&exp;'],"['on the least pretext', 'at the drop of a hat']"
+['今さっき'],[['いまさっき']],5,['&exp;'],"['just now', 'a moment ago']"
+['八々'],[['はっぱ']],5,['&exp;'],['eight times eight']
+['何チャン'],[['なんチャン']],5,['&exp;'],['what (TV) channel?']
+['何月何日'],[['なんがつなんにち']],5,['&exp;'],"['what date?', ""what's the date?"", 'when?']"
+['一にも二にも'],[['いちにもににも']],5,['&exp;'],['above all else']
+['何のかんばせあって'],[['なんのかんばせあって']],5,['&exp;'],"['how could I (you, etc.) ...?', 'how dare you (they, etc.) (have the nerve to) ...?']"
+['今日この頃'],[['きょうこのごろ']],5,['&exp;'],"['these days', 'nowadays', 'recently']"
+['からと言うもの'],[['からというもの']],5,['&exp;'],"['after', 'since']"
+['少し間をおいて'],"[['すこしあいだをおいて'], ['すこしまをおいて']]",5,['&exp;'],"['after a while', 'a little while later', 'shortly afterward', 'after a brief interval']"
+['ここまで来たら'],[['ここまできたら']],5,['&exp;'],"['after having come this far', ""now that we've come this far""]"
+['と書いてある'],[['とかいてある']],5,['&exp;'],"['according to', 'reads', 'reading', 'is written', 'says', 'states']"
+['出来れば'],[['できれば']],5,['&exp;'],['if possible']
+['毎日のように'],[['まいにちのように']],5,['&exp;'],"['almost every day', 'almost daily']"
+['見る人が見れば'],[['みるひとがみれば']],5,['&exp;'],['to the trained eye']
+['何なりとも'],[['なんなりとも']],5,['&exp;'],"['anything', 'whatever', 'whatever one likes']"
+['何だこりゃ'],[['なんだこりゃ']],5,['&exp;'],['what on Earth is this?']
+['誰の目にも'],[['だれのめにも']],5,['&exp;'],"['anyone can see that', ""it's obvious that""]"
+['口がきけない'],[['くちがきけない']],5,"['&adj-i;', '&exp;']","['unable to speak', 'inarticulate', 'mute', 'speechless', 'tongue-tied']"
+['行かん'],[['いかん']],5,['&exp;'],"['wrong', 'not good', 'of no use']"
+['この時とばかりに'],[['このときとばかりに']],5,['&exp;'],['taking an unexpected opportunity']
+['目には目を'],[['めにはめを']],5,['&exp;'],['an eye for an eye']
+['言わぬは言うにまさる'],[['いわぬはいうにまさる']],5,['&exp;'],"['speech is silver, silence is golden']"
+['生まれぬ先の襁褓さだめ'],[['うまれぬさきのむつきさだめ']],5,['&exp;'],"['putting the cart before the horse', {'_': 'putting the diapers on before (the baby) is born', '$': {'g_type': 'lit'}}]"
+['今となっては'],[['いまとなっては']],5,['&exp;'],"['at this juncture', 'after all this time', 'at this stage', 'now']"
+['言うだけあって'],[['いうだけあって']],5,['&exp;'],"['just as one was told', 'like she (he) said']"
+['今だから言える'],[['いまだからいえる']],5,['&exp;'],"[""I can say now (what I couldn't before)"", ""now (that things have changed) I don't mind telling you"", ""I couldn't tell you until now"", ""I couldn't have told you this back then""]"
+['めどが立たない'],[['めどがたたない']],5,['&exp;'],"['nowhere in sight', 'seems to be no prospect', 'up in the air']"
+['めどが立たず'],"[['めどがたたず'], ['メドがたたず']]",5,['&exp;'],"['nowhere in sight', 'seems to be no prospect', 'up in the air']"
+['お前が言うな'],[['おまえがいうな']],5,['&exp;'],"[""look who's talking"", ""you're one to talk"", 'you can talk']"
+['聞くところによると'],[['きくところによると']],5,['&exp;'],"[""from what I've heard"", 'according to reports', 'from what they say']"
+['ブルータスよ、お前もか'],[['ブルータスよおまえもか']],5,['&exp;'],"['et tu, Brute?', 'even you, Brutus?']"
+['少ししたら'],[['すこししたら']],5,['&exp;'],"['in a little bit', 'after a short while']"
+['この目で'],[['このめで']],5,['&exp;'],"['with my own (two) eyes', 'with these very eyes']"
+['人生オワタ'],[['じんせいオワタ']],5,['&exp;'],['(my) life is over']
+['どちらとも言えない'],[['どちらともいえない']],5,['&exp;'],"['(I am) not sure', ""(I) can't say which""]"
+['お気になさらず'],[['おきになさらず']],5,['&exp;'],"['not at all', ""don't worry about it"", 'forget about it']"
+['何よりもまず'],[['なによりもまず']],5,['&exp;'],"['first and foremost', 'above all', 'most importantly of all']"
+['なんだかんだ言っても'],[['なんだかんだいっても']],5,['&exp;'],"['no matter what anyone says', 'regardless of what is said']"
+['行きがかり上'],"[['いきがかりじょう'], ['ゆきがかりじょう']]",5,['&exp;'],"['by force of circumstance', 'in the circumstances', 'given the circumstances']"
+['何と言うか'],[['なんというか']],5,['&exp;'],"['how should I put it?', 'what shall I say?', 'well, you know', 'like']"
+['今日のところは'],[['きょうのところは']],5,['&exp;'],"['for today', 'for the time being']"
+['二人して'],[['ふたりして']],5,['&exp;'],"['together (of two people)', 'both (of you, them, etc.)']"
+['何かにつけ'],[['なにかにつけ']],5,['&exp;'],"['in various ways', 'in all sorts of ways', 'at every opportunity', 'whenever there is a chance']"
+['少ししか'],[['すこししか']],5,['&exp;'],['(nothing) but a little']
+['ＦＦ外'],[['エフエフがい']],5,['&exp;'],['(writing to someone on Twitter) without either person following the other']
+['何があっても'],[['なにがあっても']],5,['&exp;'],"['no matter what', 'whatever happens', 'in any situation', 'rain or shine']"
+['この父にしてこの子あり'],[['このちちにしてこのこあり']],5,['&exp;'],"['like father, like son']"
+['後になって'],"[['あとになって'], ['のちになって']]",5,['&exp;'],"['afterwards', 'at a later time', 'later on', 'after some time']"
+['この母にしてこの子あり'],[['このははにしてこのこあり']],5,['&exp;'],"[""the apple doesn't fall far from the tree"", 'like mother, like daughter', 'like mother, like son']"
+['今すぐにでも'],[['いますぐにでも']],5,['&exp;'],"['any moment now', 'any minute now', 'as soon as possible', 'right away']"
+['そんな中'],[['そんななか']],5,['&exp;'],"['wherein', 'therein', 'thereinto']"
+['話し上手は聞き上手'],[['はなしじょうずはききじょうず']],5,['&exp;'],['good talkers make good listeners']
+['何が何やら'],[['なにがなにやら']],5,['&exp;'],"[""what's what"", 'heads or tails']"
+['いつの日か'],[['いつのひか']],5,['&exp;'],"['one of these days', 'someday', 'one day']"
+['人のこと言えない'],[['ひとのこといえない']],5,['&exp;'],"['not one to talk', 'who are you to say', ""look who's talking""]"
+['今のなし'],"[['いまのなし'], ['いまのナシ']]",5,['&exp;'],"['forget it', 'forget what I just said', 'scratch that', 'check that']"
+['それと言うのも'],[['それというのも']],5,['&exp;'],"['the reason is ...', 'it is because ...']"
+['もしもの時'],[['もしものとき']],5,['&exp;'],"['(in an) emergency', '(for) unexpected circumstances']"
+['分かったもんじゃない'],[['わかったもんじゃない']],5,['&exp;'],"[""there's no knowing"", ""there's no telling"", ""it's anyone's guess"", 'who knows?']"
+['何によらず'],[['なにによらず']],5,['&exp;'],"['in all respects', 'in every way', 'whatsoever']"
+['先ほどから'],[['さきほどから']],5,['&exp;'],"['since some time ago', 'for some time', 'for quite a while']"
+['三十にして立つ'],[['さんじゅうにしてたつ']],5,['&exp;'],"['turning thirty and therefore becoming independent', ""at thirty, one stands on one's own""]"
+['またの名を'],[['またのなを']],5,['&exp;'],"['also known as', 'also called']"
+['何にしろ'],[['なんにしろ']],5,['&exp;'],"['at any rate', 'anyhow', 'anyway', 'in any case', 'because']"
+['下手をすれば'],[['へたをすれば']],5,['&exp;'],"['if one is unlucky', 'if one is careless']"
+['下手すれば'],[['へたすれば']],5,['&exp;'],"['if one is unlucky', 'if one is careless']"
+['多くとも'],[['おおくとも']],5,['&exp;'],"['at most', 'at best']"
+['何のかんの'],[['なんのかんの']],5,['&exp;'],"['this and that (esp. complaining or protesting)', 'something or other']"
+['六十の三つ子'],[['ろくじゅうのみつご']],5,['&exp;'],['an old man is twice a child']
+['と言い'],[['といい']],5,['&exp;'],"['in terms of both ... and ...', 'from the perspective of ... as well as ...', 'whether it be ... or ...']"
+['鑿と言えば槌'],[['のみといえばつち']],5,['&exp;'],"['one should do more than what is literally being asked for', {'_': 'when told (to bring) the chisel, (also bring) the mallet', '$': {'g_type': 'lit'}}]"
+['生まれてから'],[['うまれてから']],5,['&exp;'],"['since one was born', ""(in) all one's life""]"
+['とか何とか'],[['とかなんとか']],5,['&exp;'],"['or something', 'or something like that', 'or words to that effect']"
+['先立って'],[['さきだって']],5,['&exp;'],"['prior to', 'before', 'in advance of']"
+['杖に縋るとも人に縋るな'],[['つえにすがるともひとにすがるな']],5,['&exp;'],"[""don't be a burden to others"", {'_': ""lean on your cane, but don't lean on others"", '$': {'g_type': 'lit'}}]"
+['今日も今日とて'],[['きょうもきょうとて']],5,['&exp;'],"['the same as always', 'day after day']"
+['名人は人を謗らず'],[['めいじんはひとをそしらず']],5,['&exp;'],"['an accomplished person does not find fault with others', 'it is petty to criticize', 'speak ill of no man']"
+['何とかして'],[['なんとかして']],5,['&exp;'],"['somehow or other', 'one way or another', 'by some means or other']"
+['何があろうと'],[['なにがあろうと']],5,['&exp;'],"['no matter what', 'whatever happens', 'in any situation', 'rain or shine']"
+['なんて言っても'],[['なんていっても']],5,['&exp;'],"['after all is said and done', 'no matter what people say', 'in the end', 'definitely', 'undeniably']"
+['どっちかと言うと'],[['どっちかというと']],5,['&exp;'],"['if anything', ""if pushed I'd say"", 'if I had to say']"
+['どっちかと言えば'],[['どっちかといえば']],5,['&exp;'],"['if anything', ""if pushed I'd say"", 'if I had to say']"
+['何と言ったって'],[['なんといったって']],5,['&exp;'],"['no matter what', 'whatever you say', 'in the end']"
+['この上もなく'],[['このうえもなく']],5,['&exp;'],"['most of all', 'extremely', 'supremely']"
+['今に見ていろ'],[['いまにみていろ']],5,['&exp;'],"['just you wait!', ""I'll show you one day!"", ""you'll see!"", ""you'll pay for this!""]"
+['少しでも'],[['すこしでも']],5,['&exp;'],"['even a little', 'any at all', 'if only a little', 'no matter how little']"
+['どうしてもと言うのなら'],[['どうしてもというのなら']],5,['&exp;'],['if you insist']
+['なんでかと言うと'],[['なんでかというと']],5,['&exp;'],"['because', 'the reason why is']"
+['それが何か'],[['それがなにか']],5,['&exp;'],"['so what?', 'what of it?', 'and?', 'why do you ask?']"
+['行かなくては'],"[['いかなくては'], ['いかなくちゃ']]",5,['&exp;'],"[""I've got to be going"", 'I must go']"
+['言うて'],"[['ゆうて'], ['ゆーて']]",5,['&exp;'],"['that said', 'that being said']"
+['よく出来ました'],[['よくできました']],5,['&exp;'],"['well done', 'good job']"

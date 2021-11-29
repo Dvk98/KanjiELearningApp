@@ -16,8 +16,7 @@ import '../game/common.dart';
 enum FlickDirection { up, right, down, left, push, idle }
 
 class FlickComponent extends HudMarginComponent with Draggable {
-  late final PositionComponent
-      background; //TODO might change this to SpriteComponent
+  late final PositionComponent background;
   late final List<TextComponent> texts;
   late final List<PositionComponent> hightlights;
   late final List<bool> activated;

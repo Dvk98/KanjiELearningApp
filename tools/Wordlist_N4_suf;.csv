@@ -1,0 +1,33 @@
+Kanji,Reading,JLPT,Type,Meaning
+['家'],[['け']],4,['&suf;'],"['house (e.g. of Tokugawa)', 'family']"
+['回目'],[['かいめ']],4,['&suf;'],['-nth time']
+['字'],[['あざ']],4,"['&n;', '&suf;']",['section of village']
+['所ではない'],[['どころではない']],4,"['&exp;', '&suf;', '&adj-i;']","['not the time for', 'not the place for', 'far from', 'anything but', '... is out of the question', ""... isn't the word for it""]"
+['力'],[['りょく']],4,['&suf;'],"['strength', 'power', 'proficiency', 'ability']"
+['館'],[['かん']],4,"['&n;', '&suf;']","['house', 'hall', 'building']"
+['引き'],[['ひき']],4,"['&n;', '&suf;']","['pull', 'patronage', 'influence']"
+['朝風'],[['ちょうふう']],4,"['&adj-no;', '&suf;']",['period style']
+['乗'],[['じょう']],4,['&suf;'],['(nth) power']
+['屋'],[['や']],4,['&suf;'],"['shop', 'store', 'restaurant']"
+['集め'],[['あつめ']],4,"['&n;', '&suf;']","['collecting', 'assembling']"
+['度目'],[['どめ']],4,['&suf;'],['the Nth time']
+['止め'],[['どめ']],4,['&suf;'],['(something) stopper (e.g. geridome is medicine for diarrhea)']
+['好き'],[['ずき']],4,['&suf;'],"['love of', 'affection for', 'enthusiast for', 'lover of', 'fan', '-phile']"
+['引き'],[['びき']],4,['&suf;'],['-off (price reduction)']
+['者'],[['しゃ']],4,['&suf;'],"['person', '-er']"
+['家'],[['か']],4,['&suf;'],"['-ist', '-er']"
+['ん家'],[['んち']],4,"['&exp;', '&suf;']","[""'s house"", ""'s home""]"
+['頭'],[['がしら']],4,['&suf;'],"['top of ...', 'head of ...']"
+['姉'],[['し']],4,['&suf;'],['honorific suffix used after the name of a woman of equal or higher status']
+['方'],[['がた']],4,['&suf;'],"['Sirs', 'Mesdames']"
+['作り'],[['づくり']],4,['&suf;'],"['making', 'forming', 'cultivating', 'growing']"
+['主'],[['す']],4,['&suf;'],['honorific (or familiar) suffix used after a name']
+['やも知れぬ'],[['やもしれぬ']],4,['&suf;'],"['may', 'might', 'perhaps', 'may be', 'possibly']"
+['代わり'],[['がわり']],4,['&suf;'],['substitute for ...']
+['走'],[['そう']],4,['&suf;'],"['run', 'race']"
+['建て'],[['だて']],4,['&suf;'],"['indicates storeys, structures, or materials used in a building']"
+['事'],[['ごと']],4,['&suf;'],['nominalizing suffix']
+['通し'],[['どおし']],4,['&suf;'],"['keep on (doing)', '(doing) the whole time', '(doing) all the time', '(doing) all the way', '(doing) non-stop']"
+['短'],[['みじか']],4,"['&pref;', '&suf;']","['short', 'brief']"
+['民'],[['みん']],4,['&suf;'],"['citizen', 'resident', 'person']"
+['所じゃない'],[['どころじゃない']],4,"['&exp;', '&suf;', '&adj-i;']","['not the time for', 'not the place for', 'far from', 'anything but', '... is out of the question', ""... isn't the word for it""]"

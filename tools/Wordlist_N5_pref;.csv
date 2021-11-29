@@ -1,0 +1,23 @@
+Kanji,Reading,JLPT,Type,Meaning
+['一'],[['いち']],5,"['&num;', '&pref;']","['one', '1']"
+['今'],[['こん']],5,['&pref;'],"['the current ...', 'this']"
+['上'],[['うわ']],5,"['&n;', '&pref;']","['upper', 'upward', 'outer', 'surface', 'top']"
+['新'],[['しん']],5,['&pref;'],"['new', 'neo-']"
+['生'],[['き']],5,"['&n;', '&pref;']","['pure', 'undiluted', 'raw', 'crude']"
+['多'],[['た']],5,"['&n;', '&pref;']",['multi-']
+['毎'],[['まい']],5,['&pref;'],"['every (usu. with events, e.g. every weekend)', 'each']"
+['来'],[['らい']],5,['&pref;'],"['next (year, spring, etc.)', 'coming']"
+['中'],[['ちゅう']],5,"['&n;', '&pref;', '&suf;']","['medium', 'average', 'middle']"
+['立て'],[['たて']],5,['&pref;'],"['central', 'main', 'head', 'chief']"
+['大'],[['おお']],5,['&pref;'],"['large', 'big', 'great', 'major', 'important', 'serious', 'heavy', 'loud']"
+['小'],[['こ']],5,['&pref;'],"['small', 'little', 'slight']"
+['少'],[['しょう']],5,['&pref;'],"['small', 'little', 'few']"
+['小'],[['お']],5,['&pref;'],"['small', 'narrow']"
+['三大'],[['さんだい']],5,['&pref;'],['the big three ...']
+['生'],[['いく']],5,['&pref;'],"['vital', 'virile', 'lively']"
+['大き'],[['おおき']],5,['&pref;'],"['great', 'grand', 'large']"
+['白'],[['しら']],5,['&pref;'],['white']
+['二大'],[['にだい']],5,['&pref;'],"['the big two...', 'two major...', 'two main...']"
+['一'],"[['ひと'], ['ひ'], ['ひい']]",5,['&pref;'],['one']
+['前々'],[['ぜんぜん']],5,['&pref;'],"['(one) before last', 'two before', 'two in front (e.g. rows)']"
+['大'],[['たい']],5,['&pref;'],['nth year in the Taishō era (1912.7.30-1926.12.25)']

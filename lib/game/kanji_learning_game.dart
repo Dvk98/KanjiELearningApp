@@ -8,7 +8,7 @@ import 'common.dart';
 import 'word.dart';
 
 class KanjiLearningGame extends FlameGame
-    with HasDraggableComponents, HasCollidables {
+    with HasDraggableComponents, HasCollidables, HasTappableComponents {
   late final FlickUI flickUI;
   late final TextComponent test;
   @override

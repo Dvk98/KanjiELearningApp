@@ -1,0 +1,34 @@
+Kanji,Reading,JLPT,Type,Meaning
+['気筒'],[['きとう']],2,"['&n;', '&ctr;']",['cylinder']
+['件'],[['けん']],2,"['&n;', '&ctr;']","['matter', 'affair', 'case', 'item', 'subject']"
+['個'],"[['こ'], ['コ']]",2,['&ctr;'],['counter for articles']
+['歳'],[['さい']],2,"['&suf;', '&ctr;']",['-years-old']
+['冊'],[['さつ']],2,['&ctr;'],['counter for books']
+['誌'],[['し']],2,"['&n-suf;', '&ctr;']",['magazine']
+['畳'],[['じょう']],2,['&ctr;'],"['tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)']"
+['枚'],[['まい']],2,['&ctr;'],['counter for flat objects (e.g. sheets of paper)']
+['匹'],"[['ひき'], ['き']]",2,['&ctr;'],['counter for small animals']
+['泊'],[['はく']],2,['&ctr;'],['counter for nights of a stay']
+['巻'],[['かん']],2,"['&n;', '&ctr;']","['volume (of book)', 'reel (of film)']"
+['営業日'],[['えいぎょうび']],2,"['&n;', '&ctr;']",['business day']
+['枚組'],[['まいぐみ']],2,['&ctr;'],"['counter for collections or assemblies of flat objects (e.g. CDs, DVDs, etc.)']"
+['条'],[['じょう']],2,"['&n;', '&ctr;']","['article (in document)', 'provision']"
+['軒'],[['けん']],2,"['&suf;', '&ctr;']",['counter for buildings (esp. houses)']
+['枝'],[['し']],2,['&ctr;'],"['counter for long, thin things (i.e. swords)']"
+['床'],[['しょう']],2,['&ctr;'],['counter for beds']
+['時限目'],[['じげんめ']],2,['&ctr;'],['nth period (e.g. nth class in school day)']
+['宇'],[['う']],2,['&ctr;'],"['counter for buildings, roofs, tents, etc.']"
+['限目'],[['げんめ']],2,['&ctr;'],['nth period (e.g. nth class in school day)']
+['片'],[['へん']],2,['&ctr;'],"['counter for scraps, fragments, petals, etc.']"
+['片'],[['ひら']],2,['&ctr;'],"['counter for thin, flat things (petals, leaves, etc.)']"
+['個当り'],[['こあたり']],2,"['&suf;', '&ctr;']","['pieces', 'items']"
+['則'],[['そく']],2,"['&suf;', '&ctr;']",['counter for rules']
+['袋'],[['たい']],2,"['&suf;', '&ctr;']",['counter for things inside a bag']
+['個目'],[['こめ']],2,['&ctr;'],['the n-th']
+['価'],[['か']],2,"['&n-suf;', '&ctr;']","['valence', 'valency']"
+['滴'],[['てき']],2,['&ctr;'],['counter for drops of liquid']
+['筒'],[['ピン']],2,['&ctr;'],['counter for dot tiles']
+['層倍'],[['そうばい']],2,"['&suf;', '&ctr;']",['times']
+['杯'],[['はた']],2,['&ctr;'],"['counter for cupfuls, bowlfuls, spoonfuls, etc.']"
+['腰'],"[['こし'], ['よう']]",2,['&ctr;'],"['counter for swords, hakama, obi, etc. worn around the waist']"
+['番個'],[['ばんこ']],2,['&ctr;'],['-nth game (of 12 rounds)']

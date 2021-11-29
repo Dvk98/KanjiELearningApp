@@ -1,0 +1,35 @@
+Kanji,Reading,JLPT,Type,Meaning
+['岳'],"[['たけ'], ['だけ']]",1,"['&n;', '&suf;']",['peak']
+['圏'],[['けん']],1,['&suf;'],"['sphere', 'circle', 'range', 'area', 'zone', 'bloc']"
+['師匠'],[['ししょう']],1,"['&n;', '&suf;']","['master', 'teacher']"
+['振り'],[['ぶり']],1,['&suf;'],"['style', 'manner', 'way']"
+['暦'],"[['こよみ'], ['れき']]",1,"['&n;', '&suf;']","['calendar', 'almanac']"
+['沿い'],[['ぞい']],1,['&suf;'],['along']
+['如き'],[['ごとき']],1,"['&n;', '&suf;']","['like', 'as if', 'the same as']"
+['源'],[['げん']],1,['&suf;'],"['source', 'origin']"
+['尽くめ'],"[['ずくめ'], ['づくめ']]",1,['&suf;'],"['entirely', 'completely', 'all', 'nothing but']"
+['掛かり'],[['がかり']],1,['&suf;'],"['taking a quantity (of time, people, etc.)']"
+['国系'],[['こっけい']],1,['&suf;'],"['country of origin', 'ethnicity']"
+['狂'],[['きょう']],1,['&suf;'],['(some type of) enthusiast']
+['漬け'],[['づけ']],1,['&suf;'],['pickled (something)']
+['奴'],[['め']],1,['&suf;'],"['damn', 'bastard']"
+['氏'],[['し']],1,['&suf;'],"['Mr', 'Mrs', 'Ms', 'Miss']"
+['籍船'],[['せきせん']],1,"['&n;', '&suf;']",['ship registry']
+['電視台'],[['でんしだい']],1,"['&n;', '&suf;']",['(Chinese) television station']
+['月中旬'],[['げつちゅうじゅん']],1,['&suf;'],"['middle of the month', 'mid-month']"
+['臭'],[['しゅう']],1,['&suf;'],"['-smell', 'stinking of']"
+['弾き'],[['ひき']],1,['&suf;'],"['player (of music, instrument, etc.)']"
+['視'],[['し']],1,['&suf;'],"['viewing as ...', 'seeing as ...', 'treating as ...', 'regarding as ...']"
+['炎'],[['えん']],1,['&suf;'],['-itis (indicating an inflammatory disease)']
+['尽くし'],"[['づくし'], ['ずくし']]",1,['&suf;'],"['all sorts of', 'all kinds of']"
+['網'],[['もう']],1,['&suf;'],['network']
+['尽く'],"[['ずく'], ['づく']]",1,['&suf;'],"['relying entirely on ...', 'using solely ...']"
+['敷き'],[['じき']],1,['&suf;'],['suffix indicating room size (following a number of tatami mats and a counter)']
+['甲斐'],[['がい']],1,['&suf;'],"['effect', 'result', 'worth', 'use', 'avail']"
+['柚香焼'],[['ゆうがやき']],1,['&suf;'],['citrus-grilled']
+['煮'],[['に']],1,['&suf;'],"['simmered with', 'cooked with']"
+['沢山'],[['だくさん']],1,['&suf;'],"['enough', 'too many', 'too much']"
+['如す'],[['なす']],1,['&suf;'],"['-like', 'resembling', 'similar to']"
+['郎'],[['ろう']],1,['&suf;'],['nth son']
+['為い為い'],[['しいしい']],1,['&suf;'],"['while doing over and over', 'repeatedly']"
+['号棟'],[['ごうとう']],1,['&suf;'],['suffix for building numbers']

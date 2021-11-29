@@ -1,0 +1,24 @@
+Kanji,Reading,JLPT,Type,Meaning
+['株'],[['かぶ']],1,"['&n;', '&ctr;']","['stock', 'share']"
+['缶'],"[['かん'], ['カン']]",1,"['&n;', '&ctr;']","['can', 'tin']"
+['周忌'],[['しゅうき']],1,"['&n;', '&ctr;']",['death anniversary']
+['振り'],[['ふり']],1,"['&n;', '&ctr;']","['swing', 'shake', 'wave', 'swinging']"
+['丁'],[['ちょう']],1,['&ctr;'],['counter for leaves in a book (esp. one with traditional Japanese-style binding)']
+['把'],"[['わ'], ['ば'], ['ぱ']]",1,['&ctr;'],['counter for bundles']
+['隻'],[['せき']],1,['&ctr;'],['counter for ships (large boats)']
+['脚'],[['きゃく']],1,['&ctr;'],['counter for chairs or seats']
+['弾'],[['だん']],1,['&ctr;'],"['counter for parts, stages, installments, etc. (of a story, series, project, campaign, etc.)']"
+['遍'],[['へん']],1,['&ctr;'],['number of times']
+['箇'],"[['か'], ['カ']]",1,['&ctr;'],"['counter for the ichi-ni-san counting system (usu. directly preceding the item being counted)', 'a noun read using its on-yomi']"
+['箇'],"[['つ'], ['ち'], ['ぢ'], ['じ']]",1,['&ctr;'],"['counter for the hito-futa-mi counting system (forming hitotsu, futatsu, mitsu, and misoji, yasoji, etc.)']"
+['拍'],[['はく']],1,"['&n;', '&ctr;']",['beat']
+['荘'],[['チャン']],1,"['&suf;', '&ctr;']",['counter for games of mahjong']
+['錘'],[['すい']],1,"['&suf;', '&ctr;']",['counter for spindles']
+['騎'],[['き']],1,['&ctr;'],['counter for horsemen']
+['巡'],[['じゅん']],1,['&ctr;'],"['counter for tours, cycles, rounds, circuits, etc.']"
+['択'],[['たく']],1,['&ctr;'],"['counter for choices, options, etc.']"
+['翻'],"[['ハン'], ['ファン']]",1,['&ctr;'],"['han', 'fan', {'_': 'unit that doubles the score of a hand', '$': {'g_type': 'expl'}}]"
+['索'],"[['ソー'], ['ソウ']]",1,['&ctr;'],['counter for bamboo tiles']
+['傑'],[['けつ']],1,['&ctr;'],"['the top (e.g. top ten)', 'the best']"
+['浪'],[['ろう']],1,['&ctr;'],['person who has spent X years after graduating high school attempting to get admitted to (a specific) university']
+['伍'],[['ご']],1,"['&n;', '&ctr;']","['company', 'group', 'class']"

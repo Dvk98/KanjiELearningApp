@@ -114,16 +114,40 @@ def getJLPT(N1, N2, N3, N4, N5, vocab):
                 jlpt = 5
     return jlpt
 
-vocab_word_list = []
+vocab_word_list = {"5": [], "4": [], "3": [], "2": [], "1": [], "0": []}
 for vocab in kanji_reading:
     jlpt = getJLPT(N1, N2, N3, N4, N5, vocab)
     vocab[2] = jlpt
 
     if jlpt != 100:
-        vocab_word_list.append(vocab)
+        vocab_word_list[str(jlpt)].append(vocab)
+    else:
+        vocab_word_list["0"].append(vocab)
+
+vocab_word_list_sorted = {"5": {}, "4": {}, "3": {}, "2": {}, "1": {}, "0": {}}
+for jlpt in vocab_word_list:
+    #print(jlpt)
+    for word in vocab_word_list[jlpt]:
+        if len(word[3]) > 1:
+            wordtype = word[3][1]
+        else:
+            wordtype = word[3][0]
+        print(f"{wordtype}: {'adj' in wordtype}")
+        if "adj" in wordtype:
+            wordtype = "adj"
+        elif "v" in wordtype and "adv" not in wordtype:
+            wordtype = "v"
+        elif "n" in wordtype:
+            wordtype = "n"
+        wordtype = wordtype.replace("&", "")
+        if wordtype not in vocab_word_list_sorted[jlpt]:
+            vocab_word_list_sorted[jlpt][wordtype] = []
+        vocab_word_list_sorted[jlpt][wordtype].append(word)
 
 
-with open("Wordlist.csv", "w", newline="", encoding="utf8") as csvfile:
-    writer = csv.writer(csvfile, delimiter=",")
-    writer.writerow(["Kanji", "Reading", "JLPT", "Type", "Meaning"])
-    writer.writerows(vocab_word_list)
+for jlpt in ["N5", "N4", "N3", "N2", "N1", "N0"]:
+    for wordtype in vocab_word_list_sorted[jlpt[-1]]:
+        with open(f"Wordlist_{jlpt}_{wordtype}.csv", "w", newline="", encoding="utf8") as csvfile:
+            writer = csv.writer(csvfile, delimiter=",")
+            writer.writerow(["Kanji", "Reading", "JLPT", "Type", "Meaning"])
+            writer.writerows(vocab_word_list_sorted[jlpt[-1]][wordtype])

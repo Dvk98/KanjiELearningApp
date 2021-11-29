@@ -1,0 +1,26 @@
+Kanji,Reading,JLPT,Type,Meaning
+['人'],[['じん']],5,['&suf;'],"['-ian (e.g. Italian)', '-ite (e.g. Tokyoite)']"
+['人'],[['と']],5,['&suf;'],['person']
+['千万'],[['せんばん']],5,"['&n;', '&suf;', '&adv;']","['exceedingly', 'extremely', 'very many', 'indeed']"
+['大生'],[['だいせい']],5,['&suf;'],"['university student', 'college student']"
+['毎に'],[['ごとに']],5,"['&exp;', '&suf;']","['one by one', 'each', 'every', 'at intervals of']"
+['時半'],[['じはん']],5,['&suf;'],['half past (the hour)']
+['分だけ'],[['ぶんだけ']],5,['&suf;'],"['in proportion to', 'just as much as']"
+['気'],[['げ']],5,['&suf;'],"['seeming', 'giving the appearance of', 'giving one the feeling of']"
+['時'],[['じ']],5,['&suf;'],"['hour', ""o'clock""]"
+['間'],[['かん']],5,"['&n;', '&suf;']","['interval', 'period of time']"
+['安'],[['やす']],5,"['&pref;', '&suf;']",['cheap']
+['中'],"[['じゅう'], ['ぢゅう']]",5,['&suf;'],"['through', 'throughout', 'in the course of']"
+['山'],"[['さん'], ['ざん']]",5,['&suf;'],"['Mt.', 'Mount']"
+['分の'],[['ぶんの']],5,"['&exp;', '&suf;']",['-th (e.g. one fifth)']
+['後'],[['ご']],5,"['&n;', '&suf;', '&adv;']",['after']
+['下'],[['か']],5,['&suf;'],"['under (influence, control, conditions, etc. of)', 'during (war, occupation, etc.)']"
+['外'],[['がい']],5,['&suf;'],"['outside of', 'not covered by']"
+['気'],[['ぎ']],5,['&suf;'],"['-like nature', '-like disposition', '-ish temperament']"
+['っ子'],[['っこ']],5,['&suf;'],"['someone with a liking or characteristic', 'a true representative of (place)']"
+['校'],[['こう']],5,['&suf;'],['school']
+['分の一'],[['ぶんのいち']],5,"['&exp;', '&suf;']","['one Nth part (e.g. one fifth, one tenth)', 'one out of N']"
+['小'],[['ぐゎー']],5,['&suf;'],"['small', 'little', 'dear']"
+['友会'],[['ゆうかい']],5,['&suf;'],"['association', 'club', 'friends of ...']"
+['立て'],[['だて']],5,['&suf;'],"['particularly', 'especially']"
+['長'],[['なが']],5,"['&pref;', '&suf;']",['long']
