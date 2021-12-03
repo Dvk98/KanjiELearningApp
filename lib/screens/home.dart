@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:glassmorphism/glassmorphism.dart';
-import 'package:flutter_animation_progress_bar/flutter_animation_progress_bar.dart';
 
 import 'navbar.dart';
 import '../models/vocab.dart';
 
-class Dashboard extends StatefulWidget {
-  const Dashboard({required Key key}) : super(key: key);
+class Home extends StatefulWidget {
+  const Home({required Key key}) : super(key: key);
 
   @override
-  _DashboardState createState() => _DashboardState();
+  _HomeState createState() => _HomeState();
 }
 
-class _DashboardState extends State<Dashboard> {
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Align(
@@ -32,8 +30,4 @@ class _DashboardState extends State<Dashboard> {
       ),
     );
   }
-}
-
-void test() {
-  print("Test");
 }

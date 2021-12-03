@@ -1,37 +1,44 @@
 import 'package:flutter/cupertino.dart';
 
 class Vocab {
-  String kanji;
-  String reading;
-  String level;
-  double correctCount;
-  double falseCount;
+  String kanji = "";
+  List<String> reading = [""];
+  List<String> meaning = [""];
+  int level = 0;
+  List<String> type = [""];
+  double correctCount = 0;
+  double falseCount = 0;
 
-  Vocab(
-      {required this.kanji,
-      required this.reading,
-      required this.level,
-      this.correctCount = 0,
-      this.falseCount = 0});
+  Vocab(List<dynamic> data) {
+    kanji = data[0];
+    reading = data[1];
+    level = data[2];
+    type = data[3];
+    meaning = data[4];
+  }
+
+  Vocab.c(List<dynamic> data, this.correctCount, this.falseCount) {
+    kanji = data[0];
+    reading = data[1];
+    level = data[2];
+    type = data[3];
+    meaning = data[4];
+  }
 }
 
-List<Vocab> vocabs = [
-  Vocab(
-      kanji: "近日",
-      reading: "きんじつ",
-      level: "N5",
-      correctCount: 10,
-      falseCount: 2),
-  Vocab(
-      kanji: "最近",
-      reading: "さいきん",
-      level: "N5",
-      correctCount: 8,
-      falseCount: 0),
-  Vocab(
-      kanji: "上げる",
-      reading: "あげる",
-      level: "N5",
-      correctCount: 5,
-      falseCount: 13)
+List<Vocab> testVocabs = [
+  Vocab([
+    "近日",
+    ["きんじつ"],
+    5,
+    ["n"],
+    ["soon, in a few days"]
+  ]),
+  Vocab([
+    "最近",
+    ["さいきん"],
+    5,
+    ["n"],
+    ["recently"]
+  ])
 ];

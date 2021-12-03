@@ -1,7 +1,5 @@
-import 'package:app/game/kanji_learning_game.dart';
+import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
-import 'game/kanji_learning_game.dart';
-import 'screens/dashboard.dart';
 import 'screens/navbar.dart';
 
 void main() {
@@ -11,8 +9,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Flame.device.setPortraitUpOnly();
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'KanjiLearningApp',
       theme: ThemeData.dark(),
       home: NavBar(),
     );

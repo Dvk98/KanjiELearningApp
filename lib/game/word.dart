@@ -1,8 +1,12 @@
+import 'dart:math';
+
+import 'package:app/models/vocab.dart';
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flame/geometry.dart';
 import 'package:flame/palette.dart';
 import 'package:flame/extensions.dart';
+import 'package:flame/particles.dart';
 import 'package:flutter/material.dart' hide Image, Draggable;
 
 import 'dart:developer' as dev;
@@ -12,50 +16,47 @@ import 'common.dart';
 class Word extends PositionComponent with Tappable {
   final Vector2 velocity;
   final delta = Vector2.zero();
-  late final Circle circle;
   final shapePaint = BasicPalette.red.paint()..style = PaintingStyle.stroke;
   final shapePaintMarked = BasicPalette.green.paint()
     ..style = PaintingStyle.stroke;
-  final String word;
-  final List<String> readings;
+  late final Vocab vocabComponent;
   late final TextComponent textComponent;
-  bool _isMarked = false;
+  bool isMarked = false;
+  bool isActive = false;
 
   Word(
     Vector2 position,
     Vector2 size,
-    this.word,
-    this.readings,
+    this.vocabComponent,
     this.velocity,
-  ) {
-    this.position = position;
-    this.size = size;
-    anchor = Anchor.center;
-    circle = Circle(radius: 50, position: position);
-    textComponent = TextComponent(word,
-        position: position, size: size, textRenderer: Common.regular)
-      ..anchor = Anchor.center;
+  ) : super(position: position, size: size) {
+    textComponent =
+        TextComponent(vocabComponent.kanji, textRenderer: Common.regular);
+  }
+
+  changeColor() {
+    if (isMarked) {
+      textComponent.textRenderer = TextPaint(
+          config: Common.regularTextConfig.withColor(BasicPalette.red.color));
+    } else {
+      textComponent.textRenderer = TextPaint(config: Common.regularTextConfig);
+    }
   }
 
   @override
   bool onTapUp(_) {
-    dev.log("Up");
     return true;
   }
 
   @override
   bool onTapDown(_) {
-    dev.log("Down");
-    textComponent.textRenderer = TextPaint(
-        config: Common.regularTextConfig.withColor(BasicPalette.red.color));
-
-    _isMarked = _isMarked == true ? false : true;
+    isMarked = isMarked == true ? false : true;
+    changeColor();
     return true;
   }
 
   @override
   bool onTapCancel() {
-    dev.log("Cancel");
     return true;
   }
 
@@ -67,14 +68,19 @@ class Word extends PositionComponent with Tappable {
 
   @override
   void update(double dt) {
-    super.update(dt);
-    delta.setFrom(velocity * dt);
-    position.add(delta);
+    if (isActive) {
+      super.update(dt);
+      delta.setFrom(velocity * dt);
+      position.add(delta);
+    }
   }
 
-  @override
-  void render(Canvas canvas) {
-    super.render(canvas);
-    circle.render(canvas, _isMarked ? shapePaintMarked : shapePaint);
+  bool checkReading(String input) {
+    for (String reading in vocabComponent.reading) {
+      if (input == reading) {
+        return true;
+      }
+    }
+    return false;
   }
 }

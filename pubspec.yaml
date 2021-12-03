@@ -38,6 +38,9 @@ dependencies:
   flutter_animation_progress_bar: any
   material_design_icons_flutter: any
   glassmorphism: any
+  kana_kit: ^2.0.0
+  csv: ^5.0.1
+  adobe_xd: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +68,7 @@ flutter:
   
   assets:
     - assets/sprites/staralpha.png
+    - assets/vocabulary/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

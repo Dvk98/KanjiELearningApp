@@ -118,7 +118,6 @@ vocab_word_list = {"5": [], "4": [], "3": [], "2": [], "1": [], "0": []}
 for vocab in kanji_reading:
     jlpt = getJLPT(N1, N2, N3, N4, N5, vocab)
     vocab[2] = jlpt
-
     if jlpt != 100:
         vocab_word_list[str(jlpt)].append(vocab)
     else:
@@ -132,7 +131,7 @@ for jlpt in vocab_word_list:
             wordtype = word[3][1]
         else:
             wordtype = word[3][0]
-        print(f"{wordtype}: {'adj' in wordtype}")
+        #print(f"{wordtype}: {'adj' in wordtype}")
         if "adj" in wordtype:
             wordtype = "adj"
         elif "v" in wordtype and "adv" not in wordtype:
@@ -148,6 +147,6 @@ for jlpt in vocab_word_list:
 for jlpt in ["N5", "N4", "N3", "N2", "N1", "N0"]:
     for wordtype in vocab_word_list_sorted[jlpt[-1]]:
         with open(f"Wordlist_{jlpt}_{wordtype}.csv", "w", newline="", encoding="utf8") as csvfile:
-            writer = csv.writer(csvfile, delimiter=",")
+            writer = csv.writer(csvfile, delimiter="#", quoting=csv.QUOTE_NONE, escapechar='\\')
             writer.writerow(["Kanji", "Reading", "JLPT", "Type", "Meaning"])
             writer.writerows(vocab_word_list_sorted[jlpt[-1]][wordtype])

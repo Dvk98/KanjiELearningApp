@@ -26,6 +26,8 @@
   <meta name="apple-mobile-web-app-title" content="app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <script src="https://unpkg.com/wanakana"></script>
+
   <title>app</title>
   <link rel="manifest" href="manifest.json">
 </head>
@@ -96,6 +98,11 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+  </script>
+  <script>
+    var textInput = document.getElementById('wanakana-input');
+    wanakana.bind(textInput, /* options */); // uses IMEMode with toKana() as default
+    // to remove event listeners: wanakana.unbind(textInput);
   </script>
 </body>
 </html>
