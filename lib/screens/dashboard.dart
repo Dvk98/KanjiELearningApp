@@ -19,9 +19,9 @@ class _DashboardState extends State<Dashboard> {
   late int currentExp = 0;
   late int lastResult = 55;
   late int totalKanji = 0;
-  late String lastBigKanji = "近";
-  late String lastSmallKanji = "日";
-  late String lastKanjiLevel = "N2";
+  late String lastKanji = "";
+  late String lastKanjiReading = "";
+  late String lastKanjiLevel = "";
 
   int levelUp() {
     return level++;
@@ -39,9 +39,9 @@ class _DashboardState extends State<Dashboard> {
     lastResult = (right ~/ total) * 100;
   }
 
-  void setLastKanji(String bigKanji, String smallKanji, String kanjiLevel) {
-    lastBigKanji = bigKanji;
-    lastSmallKanji = smallKanji;
+  void setLastKanji(String kanji, String kanjiReading, String kanjiLevel) {
+    lastKanji = kanji;
+    lastKanjiReading = kanjiReading;
     lastKanjiLevel = kanjiLevel;
   }
 
@@ -95,8 +95,8 @@ class _DashboardState extends State<Dashboard> {
               width: 400,
               child: Text(
                   'Your last Kanji\n'
-                  '${lastBigKanji}\n\n'
-                  '${lastSmallKanji}\n\n'
+                  '${lastKanji}\n\n'
+                  '${kanjiReading}\n\n'
                   'Level: ${lastKanjiLevel}',
                   textAlign: TextAlign.center,
                   style: TextStyle(
