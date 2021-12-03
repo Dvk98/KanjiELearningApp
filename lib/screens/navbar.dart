@@ -1,12 +1,14 @@
 import 'package:app/models/vocab.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:csv/csv.dart';
-import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app/game/kanji_learning_game.dart';
 import 'package:app/screens/dashboard.dart';
 import 'package:flutter/services.dart';
+
+import 'home.dart';
+import 'settings.dart';
 
 class NavBar extends StatefulWidget {
   @override
@@ -68,16 +70,10 @@ class _NavBarState extends State<NavBar> {
   void initState() {
     _loadData();
     _widgetOptions = <Widget>[
-      Text(
-        'Home',
-        style: optionStyle,
-      ),
+      Home(key: ValueKey("Home")),
       Dashboard(key: ValueKey("Dashboard")),
       gameWidgetBuilder(context, vocabs),
-      Text(
-        'Settings',
-        style: optionStyle,
-      ),
+      Settings(key: ValueKey("Settings")),
     ];
     super.initState();
   }
