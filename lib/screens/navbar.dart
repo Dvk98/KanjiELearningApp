@@ -32,19 +32,13 @@ class _NavBarState extends State<NavBar> {
   @override
   void initState() {
     _widgetOptions = <Widget>[
-      Text(
-        'Home',
-        style: optionStyle,
-      ),
+      Home(key: ValueKey("Home")),
       Dashboard(key: ValueKey("Dashboard")),
       Text(
         'Game',
         style: optionStyle,
       ),
-      Text(
-        'Settings',
-        style: optionStyle,
-      ),
+      Settings(key: ValueKey("Settings")),
     ];
     super.initState();
   }
